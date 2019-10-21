@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Staghorn</title>
-    <link href="https://djeasey.github.io/staghorn-blog/feed.xml" rel="self" />
-    <link href="https://djeasey.github.io/staghorn-blog" />
-    <updated>2019-10-21T20:48:39+11:00</updated>
+    <link href="https://staghornblog.github.io/staghorn-blog/feed.xml" rel="self" />
+    <link href="https://staghornblog.github.io/staghorn-blog" />
+    <updated>2019-10-21T20:59:50+11:00</updated>
     <author>
         <name>Alexander Nathan</name>
     </author>
-    <id>https://djeasey.github.io/staghorn-blog</id>
+    <id>https://staghornblog.github.io/staghorn-blog</id>
 
     <entry>
         <title>Introduction to The Sapir-Whorf Hypothesis</title>
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/"/>
-        <id>https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/sapir-whorf-basics/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/sapir-whorf-basics/</id>
 
         <updated>2019-10-21T16:29:08+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/12/toki-pona-text.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/12/toki-pona-text.jpg" alt="" />
                     <p><em>A brief introduction to the Sapir-Whorf hypothesis, linguistic relativism, and polysemy</em></p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/12/toki-pona-text.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/12/toki-pona-text.jpg" alt="" />
                 <p><em>A brief introduction to the Sapir-Whorf hypothesis, linguistic relativism, and polysemy</em></p>
 
 <p id="mcetoc_1dnhm8e918">Today let’s pitch the <em>Linguistic Relativists</em> against the <em>Linguistic Universalists</em> via Toki Pona’s use of colour.</p>
@@ -190,20 +190,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/jungs-archetypes/"/>
-        <id>https://djeasey.github.io/staghorn-blog/jungs-archetypes/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/jungs-archetypes/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/jungs-archetypes/</id>
 
         <updated>2019-10-21T13:34:48+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/11/archetype-text.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/11/archetype-text.jpg" alt="" />
                     <p><em>A brief introduction to Jungian Analytical Psychology, the aparatuses of the psyche, the collective unconscious, and Jungian Archetypes.</em></p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/11/archetype-text.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/11/archetype-text.jpg" alt="" />
                 <p><em>A brief introduction to Jungian Analytical Psychology, the aparatuses of the psyche, the collective unconscious, and Jungian Archetypes.</em></p>
 
 <p id="mcetoc_1dnhlbveh2">A similar concept to Aarne-Thompson-Uther indices is the Swiss Psychiatrist Carl Jung’s concept of <em>Archetypes</em>. Intellectual adversary and friend to Sigmund Freud (and potential repressed but reciprocated homo-erotic object of desire), Jung presented similar but divergent thoughts on Freud’s new field of psychoanalysis. </p>
@@ -266,20 +266,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/phytohormones-basics/"/>
-        <id>https://djeasey.github.io/staghorn-blog/phytohormones-basics/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/phytohormones-basics/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/phytohormones-basics/</id>
 
         <updated>2019-10-21T13:33:15+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/10/pothos-text.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/10/pothos-text.jpg" alt="" />
                     <p><em>A brief introduction to phytohormones</em>.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/10/pothos-text.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/10/pothos-text.jpg" alt="" />
                 <p><em>A brief introduction to phytohormones</em>.</p>
 
 <p id="mcetoc_1dnhkmqrg8">Why do we prune? It helps promote more proximal growth and development of the plant, but how? The easy answer that “the plant can spend more energy on growing wide as opposed to tall”, whilst charmingly personifying doesn’t actually help to explain the increased rate of lateral growth. Furthermore it doesn’t really provide any mechanistic justification for not just simply letting your plant grow un-pruned until it has achieved the desired lateral development.</p>
@@ -312,20 +312,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/nephrolithiasis/"/>
-        <id>https://djeasey.github.io/staghorn-blog/nephrolithiasis/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/nephrolithiasis/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/nephrolithiasis/</id>
 
         <updated>2019-10-21T13:33:19+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/9/kidney-stones-text.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/9/kidney-stones-text.jpg" alt="" />
                     <p><em>Basic Med Student Summary of Nephrolithiasis: Causes, Epidemiology, Clinical Presentation, Diagnosis, Management, Prognosis, Complications.</em></p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/9/kidney-stones-text.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/9/kidney-stones-text.jpg" alt="" />
                 <p><em>Basic Med Student Summary of Nephrolithiasis: Causes, Epidemiology, Clinical Presentation, Diagnosis, Management, Prognosis, Complications.</em></p>
 
 <div class="post__toc">
@@ -601,20 +601,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/internet-basics/"/>
-        <id>https://djeasey.github.io/staghorn-blog/internet-basics/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/internet-basics/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/internet-basics/</id>
 
         <updated>2019-10-21T17:27:06+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/5/internet-what.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/5/internet-what.jpg" alt="" />
                     <p>A basic introduction to the internet, what it is and who owns it, the web, ISPs, and URLs. Discussed via the medium of basic English grammar and interrogatives.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/5/internet-what.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/5/internet-what.jpg" alt="" />
                 <p>A basic introduction to the internet, what it is and who owns it, the web, ISPs, and URLs. Discussed via the medium of basic English grammar and interrogatives.</p>
 
 <h2 id="mcetoc_1dnhnds3p0"><strong>Basics of the Internet</strong></h2>
@@ -623,7 +623,7 @@
 <h2 id="mcetoc_1dnhnecp21"><strong>Interrogative Inversion</strong></h2>
 <h3 id="mcetoc_1dnhnfbdc2"><u>Using the Copula (<em>to be/is</em>)</u></h3>
 <p id="mcetoc_1dnhnfqsf3" class="msg msg--info align-center">“<em>Is the internet</em> [real]?”</p>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/5/man_use_keyboard-scopio-e3dac5e6-c4c9-4010-b6f2-fa776057bf70.jpg" alt="" width="5568" height="3712">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/5/man_use_keyboard-scopio-e3dac5e6-c4c9-4010-b6f2-fa776057bf70.jpg" alt="" width="5568" height="3712">
 <figcaption >A royalty free stock image, because this article starts off very grammar heavy and needed pictures or two</figcaption>
 </figure>
 <p>To ask questions using this format, swap the verb and the subject from the statement “The internet is [real]”, to become a question “Is the internet [real]?”</p>
@@ -636,7 +636,7 @@
 <p>This is an interesting case in English in which a statement in the <em>indicative case</em> (statement as opposed to instruction), is coded as a question by intonation. In English, this is displayed by increasing pitch at the end of a sentence. <em>“You know what I mean?”</em></p>
 <p>Despite being ordered subject-verb, the intonation implies a yes/no question as if it had been ordered verb-subject.</p>
 <p class="msg msg--info align-center">“The internet is [good]<em>?</em>”</p>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/5/markus-spiske-8OyKWQgBsKQ-unsplash.jpg" alt="" width="5760" height="3840">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/5/markus-spiske-8OyKWQgBsKQ-unsplash.jpg" alt="" width="5760" height="3840">
 <figcaption >Royalty free stock image of some of the worst code formatting I have ever seen, but doesn't it look very computery? (Also note: doesn't it? = does not it? = [verb] [subject] = interrogative inversion)</figcaption>
 </figure>
 <p>To ask, <em>“the internet is [good]?”, </em>or the implied <em>“is the internet [good]?”</em>, is to ask a moralistic question about an abstraction without agency. The internet doesn’t <em>do</em>, it is simply a thing we <em>use</em>.</p>
@@ -699,10 +699,10 @@
 <li><strong>1993/1994</strong> = The first (various) web page search engines (as opposed to <em>File Transfer Protocol</em> indexes) began to spring up. These define the connectivity of the web as we know it, and were first made as an index of known useful URLs, then as searchable directories.</li>
 </ul>
 <p class="msg msg--info align-center">“<em>Where </em>is the internet?”</p>
-<p><img class="post__image--right" src="https://djeasey.github.io/staghorn-blog/media/posts/5/taylor-vick-M5tzZtFCOfs-unsplash.jpg" alt="" width="3956" height="2220">In short, we might answer <em>where</em> the internet is, in terms of where the computers <em>hosting</em> IPs are. In telecommunications networks these are often referred to as ‘<em>nodes’ </em>(from the Latin for <em>knot,</em> which given the largely forgotten ‘rope net’ imagery of the internet is incredibly satisfying).</p>
+<p><img class="post__image--right" src="https://staghornblog.github.io/staghorn-blog/media/posts/5/taylor-vick-M5tzZtFCOfs-unsplash.jpg" alt="" width="3956" height="2220">In short, we might answer <em>where</em> the internet is, in terms of where the computers <em>hosting</em> IPs are. In telecommunications networks these are often referred to as ‘<em>nodes’ </em>(from the Latin for <em>knot,</em> which given the largely forgotten ‘rope net’ imagery of the internet is incredibly satisfying).</p>
 <p>Whilst these can be, literally any computer with physical means of connecting to the internet (wireless or wired), it largely refers to massive warehouses of thousands of computers. </p>
 <p class="align-center msg msg--info">“<em>Whence/Whither </em>comes/goes the internet”</p>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/5/network.png" alt="" width="1280" height="1280">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/5/network.png" alt="" width="1280" height="1280">
 <figcaption >Partial map of the Internet, showing IP-IP connections of 2005 by <a href="https://commons.wikimedia.org/wiki/File:Internet_map_1024_-_transparent,_inverted.png">The Opte Project</a>. Displaying &lt; 30% of accessible class C networks at time of investigation.</figcaption>
 </figure>
 <p>Whilst <em>Where</em> typically refers to a location (that is static and descriptive), <em>Whence</em>, a largely obsolete interrogative, means ‘from where’ (genitive/origin), while <em>Whither</em> refers to ‘to where’ (accusative/destination).</p>
@@ -731,20 +731,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/blank-linguistics/"/>
-        <id>https://djeasey.github.io/staghorn-blog/blank-linguistics/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/blank-linguistics/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/blank-linguistics/</id>
 
         <updated>2019-10-21T17:48:55+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona-banner.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/4/toki-pona-banner.jpg" alt="" />
                     <p>A basic introduction to the constructed language Toki Pona and the Sapir-Whorf Hypothesis. A comparison of basic Toki Pona and English sentence structure.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona-banner.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/4/toki-pona-banner.jpg" alt="" />
                 <p>A basic introduction to the constructed language Toki Pona and the Sapir-Whorf Hypothesis. A comparison of basic Toki Pona and English sentence structure.</p>
 
 <div class="post__toc">
@@ -784,7 +784,7 @@
 <p>*Note that sources can cite 119-125 root words, due to obsolescence and other quirks. Nevertheless, the set I first learnt contained 120 words so this is the number I’ll refer to.</p>
 <p>That’s not to say only 120 concepts can be communicated, but rather anything one wishes to say is constructed from these word roots in a structured and logical manner.</p>
 <p>For example, if we were to ask how to translate the English word “coffee”, the spiritual staple on which I subsist, we would have to think for a moment. Toki Pona demands we deconstruct both WHAT and WHY we are saying what we want to say, then rebuild the concept from the 120 roots.</p>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/4/sitelen_pona.png" alt="" width="456" height="599">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/4/sitelen_pona.png" alt="" width="456" height="599">
 <figcaption >"sitelen pona": An alternate non-latin-alphabetical way to writing the 120 words of Toki Pona, as included by Sonja Lang in her book 'Toki Pona: The Language of Good'</figcaption>
 </figure>
 <h2 id="mcetoc_1dnhlgtgp1"><strong>How To Talk Using Only 120 Words</strong></h2>
@@ -923,10 +923,10 @@
 <p>And boom. From a language which has no words for quietness or loudness or jokes or cutlery or friendship, you have created ways to say these things. This is how meaning can be encoded in Toki Pona, and therefore from those 120 roots you can encode as many concepts as you are able to construct.</p>
 <p>And at the end of the day, isn’t encoding concepts the purpose of language? </p>
 <p>We’ll talk about more complex Toki Pona structures in the future, but for now it’s time for geek notes.</p>
-<figure class="post__image undefined" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona-alt.png" width="3877" height="5107">
+<figure class="post__image undefined" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/4/toki-pona-alt.png" width="3877" height="5107">
 <figcaption >Comparison of Basic English and Toki Pona Sentence Structure</figcaption>
 </figure>
-<h2 id="mcetoc_1dnhm8e918"><strong>GEEK NOTES: <a href="https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/">Introduction to The Sapir-Whorf Hypothesis</a></strong></h2>
+<h2 id="mcetoc_1dnhm8e918"><strong>GEEK NOTES: <a href="https://staghornblog.github.io/staghorn-blog/sapir-whorf-basics/">Introduction to The Sapir-Whorf Hypothesis</a></strong></h2>
 <p>Today let’s pitch the <em>Linguistic Relativists</em> against the <em>Linguistic Universalists</em> via Toki Pona’s use of colour.</p>
 <p><strong> </strong><u>The Sapir-Whorf Hypothesis</u></p>
 <blockquote>
@@ -1087,20 +1087,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/archetypes-in-classics/"/>
-        <id>https://djeasey.github.io/staghorn-blog/archetypes-in-classics/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/archetypes-in-classics/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/archetypes-in-classics/</id>
 
         <updated>2019-10-21T13:29:18+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/3/archetype.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/3/archetype.jpg" alt="" />
                     <p><em>A basic introduction to comparative mythology with discussion of motifs, themes, archetypes, the Aarne-Thompson-Uther Index, and basic Jungian psychology.</em></p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/3/archetype.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/3/archetype.jpg" alt="" />
                 <p><em>A basic introduction to comparative mythology with discussion of motifs, themes, archetypes, the Aarne-Thompson-Uther Index, and basic Jungian psychology.</em></p>
 
 <div class="post__toc">
@@ -1112,7 +1112,7 @@
 </ul>
 </div>
 <h2 id="mcetoc_1dnhlb6ll0"><strong>The Aarne-Thompson-Uther Index</strong></h2>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/3/mateus-campos-felipe-OhThddppdnY-unsplash.jpg" alt="" width="4000" height="6000">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/3/mateus-campos-felipe-OhThddppdnY-unsplash.jpg" alt="" width="4000" height="6000">
 <figcaption >
 <p>"Apollo and Daphne" a marble sculpture by Gian Lorenzo Bernini, recounting a Greek myth I did NOT get to hear about in my first week of Classics.</p>
 <p>This depicts the story in which Daphne would rather turn into a bay tree than hook up with a complete stranger (here being Apollo who probably wanted to rape her because basically all the male Greek gods were rapists)</p>
@@ -1143,7 +1143,7 @@
 <p>These motifs seem to transcend age and culture, be it the “<em>D113.1. 1 Werewolf</em>” of the historical Swiss Werewolf Trials, or the “<em>D10-D99 Transformation of man to different man</em>” of Harry Potter’s Polyjuice Potion, the “<em>C961.1 Transformation to pillar of salt for breaking taboo</em>” of the Bible’s Wife of Lot or the Greek’s Eurydice.</p>
 <p>Whilst some of the vocabulary of the system is evidently grounded in Germanic folktale, the applications have extended beyond cultures. For example, concepts like <em>“G. Ogres”</em>, can be considered to include general <em>Non-Mundane Beasts</em> or perhaps <em>Demons</em>. </p>
 <p>This system of analysing folktales creates a lens though which we can view all narratives. No culture’s legends are so unique that they cannot tick a couple of boxes. No ancient fable is so remote that it’s structure cannot be identified. These systems show us that humans are not so different and our stories are the same. For what is the purpose of storytelling? To explain the phenomenon of lightning to our pre-electrophysical communities? To teach our children not to walk idly in the woods on their way to Grandma? Or maybe just to keep us entertained while we huddle around the fire or drift off to sleep, dreaming of shoes made of glass and bears eating porridge. </p>
-<h2 id="mcetoc_1dnhlbveh2"><strong>GEEK NOTES: <a href="https://djeasey.github.io/staghorn-blog/jungs-archetypes/">Jung’s Collective Unconscious &amp; Archetypes</a></strong></h2>
+<h2 id="mcetoc_1dnhlbveh2"><strong>GEEK NOTES: <a href="https://staghornblog.github.io/staghorn-blog/jungs-archetypes/">Jung’s Collective Unconscious &amp; Archetypes</a></strong></h2>
 <p>A similar concept to Aarne-Thompson-Uther indices is the Swiss Psychiatrist Carl Jung’s concept of <em>Archetypes</em>. Intellectual adversary and friend to Sigmund Freud (and potential repressed but reciprocated homo-erotic object of desire), Jung presented similar but divergent thoughts on Freud’s new field of psychoanalysis. </p>
 <p>Freud’s Model of the psych consisted of three psychic apparatuses:</p>
 <ul>
@@ -1155,7 +1155,7 @@
 <p>Meanwhile, Jung divided the psyche into the conscious <em>Ego</em>, the <em>Personal Unconscious</em> (our recalled and repressed memories), and the <em>Collective Unconscious</em>.</p>
 <p>Jung’s take, informed heavily by Eastern philosophy, was that the <em>Collective Unconscious</em> was populated by human instinct and abstractions called ‘<em>Archetypes’</em>.  Jungian psychology, now termed <em>Analytic Psychology</em>, examined how the psych strove, and more often than not failed and stagnated, to pursue its goal of self-realisation via the process of individuation, the formation of a robust and whole sense of self. The interplays between states of progress in individuation and issues encountered would be seen by analysing a patient’s dreams and thoughts. Symbolic elements of dreams for example would considered the implication of these symbolic archetypes, what they meant to the patient, and how the symbolic interplay of their narrative could be interpreted as representing psychological states.</p>
 <p>These archetypes are universally relatable symbols and can be considered a simplified version of Aarne-Thompson-Uther’s motifs: A great/earth mother, a wise sage, the duality of light and dark. Some of these archetypes, being abstract symbols, can over-lap or be subsets of each other, others can be mixed flavours.</p>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/3/Venus_de_Milo_Paris_2_September_2013_001.jpg" alt="" width="2848" height="4272">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/3/Venus_de_Milo_Paris_2_September_2013_001.jpg" alt="" width="2848" height="4272">
 <figcaption >
 <p>The "Venus de Milo" by Alexandros of Antioche, a marble sculpture of the Greek goddess Aphrodite. When discussing the Greek gods in terms of Jungian Archetypes, Aphrodite (the embodiment of love and beauty) is a projected and symbolic incarnation of internal archetypes (here being of feminine sexuality, love, and beauty) (photo by <a href="https://commons.wikimedia.org/wiki/File:Venus_de_Milo,_Paris_2_September_2013_001.jpg">Tom King</a>)</p>
 </figcaption>
@@ -1204,20 +1204,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/pothos-basics/"/>
-        <id>https://djeasey.github.io/staghorn-blog/pothos-basics/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/pothos-basics/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/pothos-basics/</id>
 
         <updated>2019-10-21T17:48:09+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/2/pothos.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/2/pothos.jpg" alt="" />
                     <p><em>How to care for and propagate "Golden Pothos" (Epipremnum aureum), the world's best houseplant. How to prune pothos and the science of why it can be beneficial.</em></p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/2/pothos.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/2/pothos.jpg" alt="" />
                 <p><em>How to care for and propagate "Golden Pothos" (Epipremnum aureum), the world's best houseplant. How to prune pothos and the science of why it can be beneficial.</em></p>
 
 <div class="post__toc">
@@ -1245,9 +1245,9 @@
 <p>In the time before I fell in love with botany, I did still love house plants, I just never had any idea how to properly cultivate or propagate them. As such I managed to kill most of little crazy-student-omen-bringers. That is of course, except for one I purchased upon moving to Melbourne for med school. My pride and joy…</p>
 <p><em>Epipremnum aureum</em>, aka ‘Golden Pothos’ (or more commonly ‘Devil’s Ivy’ in Australia).</p>
 <h2 id="mcetoc_1dnhkjdsu1"><strong>Basic Pothos Care</strong></h2>
-<br><img class="post__image--right" src="https://djeasey.github.io/staghorn-blog/media/posts/2/patrick-perkins-ab_Ds2rBqNU-unsplash.jpg" width="385" height="312">It’s hard have access to Google and an interest in houseplants without being inundated on articles about <em>Epipremnum aureum</em>. Why? Because they are, in my humble opinion, the perfect house plant: they look gorgeous, are easy to grow, hard to kill, they clean the air (pulling various toxic hydrocarbons from the air), and they’re bonkers-easy to propagate. So in the noble tradition of online plant-folk here are some thoughts on cultivating <em>Epipremnum aureum<strong>.</strong></em>
+<br><img class="post__image--right" src="https://staghornblog.github.io/staghorn-blog/media/posts/2/patrick-perkins-ab_Ds2rBqNU-unsplash.jpg" width="385" height="312">It’s hard have access to Google and an interest in houseplants without being inundated on articles about <em>Epipremnum aureum</em>. Why? Because they are, in my humble opinion, the perfect house plant: they look gorgeous, are easy to grow, hard to kill, they clean the air (pulling various toxic hydrocarbons from the air), and they’re bonkers-easy to propagate. So in the noble tradition of online plant-folk here are some thoughts on cultivating <em>Epipremnum aureum<strong>.</strong></em>
 <h3 id="mcetoc_1dnhl4fjob"><u>How to Grow Pothos</u></h3>
-<p><img class="post__image--right" src="https://djeasey.github.io/staghorn-blog/media/posts/2/kevin-lessy-aKqw_M1CmfI-unsplash.jpg" width="348" height="464">It is worth noting that the care of many vining species of certain genera is often grouped together, frequently: <em>Epipremnum</em>, <em>Scindapsus,</em> and to a lesser extend the vining <em>Philodendron </em>and<em> Peperomia species.</em> This is because they like similar conditions:</p>
+<p><img class="post__image--right" src="https://staghornblog.github.io/staghorn-blog/media/posts/2/kevin-lessy-aKqw_M1CmfI-unsplash.jpg" width="348" height="464">It is worth noting that the care of many vining species of certain genera is often grouped together, frequently: <em>Epipremnum</em>, <em>Scindapsus,</em> and to a lesser extend the vining <em>Philodendron </em>and<em> Peperomia species.</em> This is because they like similar conditions:</p>
 <ul>
 <li>Partial to medium shade</li>
 <li>Dry-out periods between thorough watering</li>
@@ -1304,10 +1304,10 @@
 <p>I am yet to find a highly successful method of transition. Thankfully I am also yet to find a compelling reason to make such a transition. I have only ever made such a transition out of curiosity and can see no other reason why one would ever uproot a healthy soil-rooted plant into water.</p>
 <p>Nevertheless, this involves remove the plant and root ball form the pot, transferring it to a bucket of room temperature water. Via slight jiggling and root separation, let the soil fall away from the roots. Once the roots are sufficiently clean for your taste, transfer to its new watery-home</p>
 <p>In my (minimal) experience, smaller plants tolerate this change better, which I attributed to the larger (now unmet) nutrient requirements of larger soil-rooted plants.</p>
-<figure class="post__image undefined" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/2/Pothos1.png" width="2759" height="3676">
+<figure class="post__image undefined" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/2/Pothos1.png" width="2759" height="3676">
 <figcaption >Summary of Water Propagation of Pothos</figcaption>
 </figure>
-<h2 id="mcetoc_1dnhkmqrg8"><strong>GEEK NOTES: <a href="https://djeasey.github.io/staghorn-blog/phytohormones-basics/">Introduction to Phytohormones</a></strong></h2>
+<h2 id="mcetoc_1dnhkmqrg8"><strong>GEEK NOTES: <a href="https://staghornblog.github.io/staghorn-blog/phytohormones-basics/">Introduction to Phytohormones</a></strong></h2>
 <p>But why prune in the first place? As mentioned above, it helps promote more proximal growth and development of the plant, but how? The easy answer that “the plant can spend more energy on growing wide as opposed to tall”, whilst charmingly personifying doesn’t actually help to explain the increased rate of lateral growth. Furthermore it doesn’t really provide any mechanistic justification for not just simply letting your plant grow un-pruned until it has achieved the desired lateral development.</p>
 <p> And yet we see pruning the most distal parts seems to promote lateral growth. Why is that? To answer this, let’s have a quick refresher on plant endocrinology.</p>
 <p><u>Plant Hormone Basics</u></p>
@@ -1338,20 +1338,20 @@
         <author>
             <name>Alexander Nathan</name>
         </author>
-        <link href="https://djeasey.github.io/staghorn-blog/kidney-stones-101/"/>
-        <id>https://djeasey.github.io/staghorn-blog/kidney-stones-101/</id>
+        <link href="https://staghornblog.github.io/staghorn-blog/kidney-stones-101/"/>
+        <id>https://staghornblog.github.io/staghorn-blog/kidney-stones-101/</id>
 
         <updated>2019-10-21T13:30:22+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/1/kidney-stones.jpg" alt="" />
+                        <img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/kidney-stones.jpg" alt="" />
                     <p><em>Written for non-medical folk: Basic kidney function and disease process causing kidney stones. Discussion of role of dehydration, salts, and the urinary tract.</em></p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/1/kidney-stones.jpg" alt="" />
+                    <img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/kidney-stones.jpg" alt="" />
                 <p><em>Written for non-medical folk: Basic kidney function and disease process causing kidney stones. Discussion of role of dehydration, salts, and the urinary tract.</em></p>
 
 <div class="post__toc">
@@ -1375,16 +1375,16 @@
 <p>However, the handy thing is that the kidneys can absorb things differently depending on what the body needs. If you’re dehydrated, they will reabsorb more water, making more concentrated urine. Thus, the bladder fills with a more concentrated, darker urine, that’s packed with more of those salts, toxins/waste chemicals, and lose less of that precious water.</p>
 <p>To be honest, I think that’s pretty cool.</p>
 <div class="gallery"   >
-<figure class="gallery__item"><a href="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1127.png" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1127-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1127" width="417" height="700"></a>
+<figure class="gallery__item"><a href="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1127.png" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1127-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1127" width="417" height="700"></a>
 <figcaption class="gallery-description">Renal Coronal Section: An old-timey cross-section image of a kidney, because Gray's Anatomy (20e) is public domain, so why not?</figcaption>
 </figure>
-<figure class="gallery__item"><a href="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1120.png" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1120-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1120" width="683" height="900"></a>
+<figure class="gallery__item"><a href="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1120.png" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1120-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1120" width="683" height="900"></a>
 <figcaption class="gallery-description">Abdominal view showing the kidneys in place (much of the internal viscera in front of the kidneys has not been displayed)</figcaption>
 </figure>
-<figure class="gallery__item"><a href="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1121.png" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1121-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1121" width="538" height="600"></a>
+<figure class="gallery__item"><a href="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1121.png" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1121-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1121" width="538" height="600"></a>
 <figcaption class="gallery-description">Abdominal &amp; Pelvic view showing both kidneys, their attached ureters, and the top of the bladder peaking out the bottom.</figcaption>
 </figure>
-<figure class="gallery__item"><a href="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1130.png" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/1/gallery/Gray1130-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1130" width="188" height="250"></a>
+<figure class="gallery__item"><a href="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1130.png" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/gallery/Gray1130-thumbnail.png" alt="Gray's Anatomy (20e) Plate 1130" width="188" height="250"></a>
 <figcaption class="gallery-description">Glomerulus: This displays one of the kidney's many glomeruli (bottom), a twisty knot of capillaries from which fluid can flow into the renal tubule (top) and through the kidneys long tubulue system.</figcaption>
 </figure>
 </div>
@@ -1405,9 +1405,9 @@
 <p>As always, if you think you might have a kidney stone, are in any pain, or are concerned about your health in the short or long term, go see a doctor. If you're in crippling agony, skip down to your local <em>Emergency Department </em>post haste. If you're not currently in extreme pain but have some concerns, go see your <em>GP</em>.</p>
 <p class="msg msg--highlight align-left">If you don't have a regulary GP, which I absolutely recommend you do if you can, I suggest you find an affordable/bulk-billing clinic to regularly attend just so you are on their local files. This <em>IMMENSELY</em> helps the doctors do their jobs better.</p>
 <p><em>[Summary Infographic on it's way]</em></p>
-<h2 id="mcetoc_1dnhk6jlhe">GEEK NOTES (Med Student Study Notes):  <a href="https://djeasey.github.io/staghorn-blog/nephrolithiasis/">Nephrolithiasis Basics</a></h2>
+<h2 id="mcetoc_1dnhk6jlhe">GEEK NOTES (Med Student Study Notes):  <a href="https://staghornblog.github.io/staghorn-blog/nephrolithiasis/">Nephrolithiasis Basics</a></h2>
 <p><u>Stone Types and Urinary Chemical Causes</u></p>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/1/Gray1122.png" alt="Gray's Anatomy (20e) Plate 1122" width="515" height="400">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/Gray1122.png" alt="Gray's Anatomy (20e) Plate 1122" width="515" height="400">
 <figcaption >Spatial relationship between kidneys and their neighbouring viscera</figcaption>
 </figure>
 <ul>
@@ -1541,7 +1541,7 @@
 </tbody>
 </table>
 <p>* low calcium intake increases oxalate reabsorption </p>
-<figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/1/Gray1128.png" alt="Gray's Anatomy (20e) Plate 1128" width="602" height="600">
+<figure class="post__image post__image--right" ><img src="https://staghornblog.github.io/staghorn-blog/media/posts/1/Gray1128.png" alt="Gray's Anatomy (20e) Plate 1128" width="602" height="600">
 <figcaption >A nephron schematic, because who doesn't love a good nephron schematic?</figcaption>
 </figure>
 <p>Note that the three locations that stones are most likely to get ‘stuck’ are:</p>
