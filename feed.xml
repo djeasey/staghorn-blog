@@ -3,7 +3,7 @@
     <title>Staghorn</title>
     <link href="https://djeasey.github.io/staghorn-blog/feed.xml" rel="self" />
     <link href="https://djeasey.github.io/staghorn-blog" />
-    <updated>2019-10-21T16:02:52+11:00</updated>
+    <updated>2019-10-21T17:23:21+11:00</updated>
     <author>
         <name>Alexander Nathan</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/"/>
         <id>https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/</id>
 
-        <updated>2019-10-21T13:35:52+11:00</updated>
+        <updated>2019-10-21T16:29:08+11:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://djeasey.github.io/staghorn-blog/media/posts/12/toki-pona-text.jpg" alt="" />
@@ -604,7 +604,7 @@
         <link href="https://djeasey.github.io/staghorn-blog/internet-basics/"/>
         <id>https://djeasey.github.io/staghorn-blog/internet-basics/</id>
 
-        <updated>2019-10-21T16:00:31+11:00</updated>
+        <updated>2019-10-21T17:23:05+11:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://djeasey.github.io/staghorn-blog/media/posts/5/internet-what.jpg" alt="" />
@@ -618,8 +618,8 @@
                 <p>A basic introduction to the internet, what it is and who owns it, the web, ISPs, and URLs. Discussed via the medium of basic English grammar and interrogatives.</p>
 
 <h2 id="mcetoc_1dnhnds3p0"><strong>Basics of the Internet</strong></h2>
-<p>A rudimentary introduction to the internet could take many forms, but instead I thought it would be whimsically inane to run through the 5 W’s (“who”, “what”, “when”, “where”, and “why”). But then I thought I might up-the-nonsense and take it to a linguistic place. So to investigate the internet, let’s simultaneously investigate the different types of interrogatives (question-askers) in English.</p>
-<p> So let’s churn through all the different ways one can pose a question in the English Language, and do so whilst asking questions about the internet.</p>
+<p>A rudimentary introduction to the internet could take many forms, but instead I thought it would be whimsically inane to run through the 5 W’s (“who”, “what”, “when”, “where”, and “why”)—BUT NO— then I thought I might up-the-nonsense and take it to a linguistic place. So to investigate the internet, let’s simultaneously investigate the different types of interrogatives (question-askers) in English.</p>
+<p>So let’s churn through all the 12 different ways one can pose a question in the English Language, and do so whilst asking questions about the internet.</p>
 <p>Note that the Yes/No specific questions are a bit bizarre for this purpose so we’ll get them out of the way first.</p>
 <h2 id="mcetoc_1dnhnecp21"><strong>Interrogative Inversion</strong></h2>
 <h3 id="mcetoc_1dnhnfbdc2"><u>Using the Copula (<em>to be/is</em>)</u></h3>
@@ -628,20 +628,20 @@
 <figcaption >A royalty free stock image, because this article starts off very grammar heavy and needed pictures or two</figcaption>
 </figure>
 <p>To ask questions using this format, swap the verb and the subject from the statement “The internet is [real]”, to become a question “Is the internet [real]?”</p>
-<p>Yes. Yes it is real. At least in some senses.</p>
+<p>Answer: <em>Yes. Yes it is real. At least in some senses.</em></p>
 <p>In the material sense it is an emergent property of computer network interconnectivity, but not a physical entity in itself. However, discussing the metaphysical mysteries of reality or the ‘<em>real’</em>, is entirely above my (non-existent) pay-grade and beyond the scope of this article.</p>
 <h3 id="mcetoc_1dnhnhh584"><u>Using an Auxiliary (<em>to do</em> OR <em>to have</em>)</u></h3>
 <p class="msg msg--info align-center">“<em>Does the internet</em> [exist]?”</p>
-<p>Yep. For sake of our discussion, let’s assume that the internet does exist, as taking the article in the direction of metaphysical solipsistic (“nothing exists external to my mind”) would hardly be that informative.</p>
+<p><em>Yep</em>. For sake of our discussion, let’s assume that the internet does exist, as taking the article in the direction of metaphysical solipsistic (“nothing exists external to my mind”) would hardly be that informative.</p>
 <h2 id="mcetoc_1dnhni6ja5"><strong>Declarative Question (aka Implied Inversion)</strong></h2>
-<p>This is an interesting case in English in which a statement in the indicative case (statement as opposed to instruction), is coded as a question by intonation. In English, this is displayed by increasing pitch at the end of a sentence. <em>“You know what I mean?”</em></p>
+<p>This is an interesting case in English in which a statement in the <em>indicative case</em> (statement as opposed to instruction), is coded as a question by intonation. In English, this is displayed by increasing pitch at the end of a sentence. <em>“You know what I mean?”</em></p>
 <p>Despite being ordered subject-verb, the intonation implies a yes/no question as if it had been ordered verb-subject.</p>
 <p class="msg msg--info align-center">“The internet is [good]<em>?</em>”</p>
 <figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/5/markus-spiske-8OyKWQgBsKQ-unsplash.jpg" alt="" width="5760" height="3840">
 <figcaption >Royalty free stock image of some of the worst code formatting I have ever seen, but doesn't it look very computery? (Also note: doesn't it? = does not it? = [verb] [subject] = interrogative inversion)</figcaption>
 </figure>
-<p>To ask, <em>“the internet is [good]?”, </em>or the implied <em>“is the internet [good]?”</em>, is to ask a moralistic question about an abstraction without agency. The internet doesn’t <em>do</em>, it is simply a thing we <em>use</em>. We can use the internet to do good or bad things, but it in itself is as morally culpable as a <em>rock</em>, or <em>the colour blue</em>, or <em>mathematics</em>.</p>
-<p>That being said I personally think the internet is, as a concept, deeply and awe-inspiringly beautiful, but we’ll come back to that at the end, as there are actually useful questions we should be asking right now.</p>
+<p>To ask, <em>“the internet is [good]?”, </em>or the implied <em>“is the internet [good]?”</em>, is to ask a moralistic question about an abstraction without agency. The internet doesn’t <em>do</em>, it is simply a thing we <em>use</em>.</p>
+<p>We can use the internet to do good or bad things, but it in itself is as morally culpable as a <em>rock</em>, or <em>the colour blue</em>, or <em>mathematics</em>.</p>
 <h2 id="mcetoc_1dnhniov96"><strong>Interrogative Determiners and Pronouns</strong></h2>
 <p class="msg msg--info align-center">“<em>What </em>is the internet?”</p>
 <p>Ok, <em>now</em> we’re getting somewhere. </p>
@@ -684,7 +684,7 @@
 <p>Whereas the file name contains specific page locations and sublocations, and can contain specific useful functions:</p>
 <ul>
 <li>/buttface.html = refers to a page named “buttface”, which is coded as an html file.</li>
-<li>/articles/pass-times/napping.pdf = would refer to a pdf document named “napping”, from a folder “pass-times”, from a folder “articles”, from whatever domain the page is from. This is, including everything before it is referred to as a “<em>path</em>”.</li>
+<li>/articles/pass-times/napping.pdf = would refer to a pdf document named “napping”, from a folder “pass-times”, from a folder “articles”, from whatever domain the page is from. This is, including everything before it, referred to as a “<em>path</em>”.</li>
 <li>Scripts and queries: this includes all the horrific punctuation and nonsense after the bit of the URL which is meaningless for you and me. These can range from fairly simple and uniform, to a cybernetic hellscape of site specific coding. For example:</li>
 <li><a href="https://www.google.com/search?sxsrf=ACYBGNQ3ekXZlRhOyZL7-hnc1hi7qjSlHA%3A1571023196928&amp;ei=XOmjXaWqOKzgz7sPjpuh8Aw&amp;q=THIS+IS+A+QUERY+FOR+THE+SEARCH+SCRIPT&amp;oq=THIS+IS+A+QUERY+FOR+THE+SEARCH+SCRIPT&amp;gs_l=psy-ab.3..33i22i29i30.2534.19237..30617...7.1..2.377.10767.0j30j19j3......0....1..gws-wiz.....10..0i71j35i39j0i131i273j0j0i131j0i67j0i131i67j35i362i39j0i22i30.FHTxFzd76wY&amp;ved=0ahUKEwilyNi85ZrlAhUs8HMBHY5NCM4Q4dUDCAs&amp;uact=5">https://www.google.com/search?sxsrf=ACYBGNQ3ekXZlRhOyZL7-hnc1hi7qjSlHA%3A1571023196928&amp;ei=XOmjXaWqOKzgz7sPjpuh8Aw&amp;q=THIS+IS+A+QUERY+FOR+THE+SEARCH+SCRIPT&amp;oq=THIS+IS+A+QUERY+FOR+THE+SEARCH+SCRIPT&amp;gs_l=psy-ab.3..33i22i29i30.2534.19237..30617...7.1..2.377.10767.0j30j19j3......0....1..gws-wiz.....10..0i71j35i39j0i131i273j0j0i131j0i67j0i131i67j35i362i39j0i22i30.FHTxFzd76wY&amp;ved=0ahUKEwilyNi85ZrlAhUs8HMBHY5NCM4Q4dUDCAs&amp;uact=5</a></li>
 <li>Note the protocol, the path and the script (search?), and the nightmarish query which follows.</li>
