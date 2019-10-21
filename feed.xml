@@ -3,12 +3,587 @@
     <title>Staghorn</title>
     <link href="https://djeasey.github.io/staghorn-blog/feed.xml" rel="self" />
     <link href="https://djeasey.github.io/staghorn-blog" />
-    <updated>2019-10-21T11:53:47+11:00</updated>
+    <updated>2019-10-21T12:28:47+11:00</updated>
     <author>
         <name>Alexander Nathan</name>
     </author>
     <id>https://djeasey.github.io/staghorn-blog</id>
 
+    <entry>
+        <title>Introduction to The Sapir-Whorf Hypothesis</title>
+        <author>
+            <name>Alexander Nathan</name>
+        </author>
+        <link href="https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/"/>
+        <id>https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/</id>
+
+        <updated>2019-10-21T12:25:50+11:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/12/toki-pona-text.jpg" alt="" />
+                    Today let’s pitch the Linguistic Relativists against the Linguistic Universalists via Toki Pona’s use of colour. The Sapir-Whorf Hypothesis “one's language determines one's conception of the world” This linguistic hypothesis claims that not only do we externally vocalise our perceptions and thoughts in a manner dictated by the characteristics&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/12/toki-pona-text.jpg" alt="" />
+                <p id="mcetoc_1dnhm8e918">Today let’s pitch the <em>Linguistic Relativists</em> against the <em>Linguistic Universalists</em> via Toki Pona’s use of colour.</p>
+<p><strong> </strong><u>The Sapir-Whorf Hypothesis</u></p>
+<blockquote>
+<p>“one's language determines one's conception of the world”</p>
+</blockquote>
+<p>This linguistic hypothesis claims that not only do we externally vocalise our perceptions and thoughts in a manner dictated by the characteristics and breadth of our language, but that we also internally frame our thoughts in a manner dictated by our language.</p>
+<p>The Sapir-Whorf Hypothesis (SWH), the implications of which are often referred to as <em>Linguistic Relativity</em>, arose from the 19<sup>th</sup> and 20<sup>th</sup> century writings of Edward Sapir and Benjamin Lee Whorf (amongst others). The history of this school of thought is, as one can expect from the anthropology of the era, <em>dripping</em> in racism and notions of European political and intellectual supremacy. Nevertheless, the SWH discussed in isolation does lend itself to interesting conversations. As such I’m not going to talk much about the analysis of linguistic relativity with regards to the Inuit or Hopi peoples, because I feel that I lack the sufficient skills to extract the useful knowledge from what is otherwise a dumpster fire of flaming racist garbage.</p>
+<p>So I shall return to the SWH. For this, I will choose to use the terminology I am more familiar with, that of neurology and psych:</p>
+<ul>
+<li><strong>Perception</strong> = The process of observing/being aware of an external world object stimulus and internalising it through the senses and pathways of thought to conscious and unconscious mind. “see an apple, think an apple”</li>
+<li><strong>External Object</strong> = The external ‘thing’, the <em>noumenon</em>, the “apple”</li>
+<li><strong>Stimulus</strong> = The external physical characteristic that can be sensed: e.g. the red light reflecting off the apple, the smell of the apple, the sound wave of a voice.</li>
+<li><strong>Percept</strong> = The internal <em>phenomenon</em>, constructed in the mind. The internal image. The <em>idea</em> of that specific apple in front of you.</li>
+<li><strong>Cognition</strong> = The mental process of learning and understanding, as discussed in thought, memory, perception etc.</li>
+<li><strong>Thought</strong> = the flow of <em>ideas</em>, <em>associations, </em>and <em>internal objects</em> leading to a conclusion about reality.</li>
+</ul>
+<p>When discussing the SWH we might discuss two extents of its application, the <em>strong</em> and <em>weak</em> interpretations.</p>
+<p>The strong version of the Sapir-Whorf Hypothesis, deemed <em>Linguistic Determinism,</em> holds that language determines the structure and limits of thought and cognition. A rather simplified example is that our percept of an ‘apple’ is different from our percept of a ‘pear’ because we have different words for them. When see an apple or pear the higher order, more abstract, processes of perception encode the stimulus to a category which it already has available. Where there is both a word for ‘apple’ and for ‘pear’ the mind has an associated category for ‘apple’ and  for ‘pear’. As such the metaphorical admin workers can file the encoded stimulus of the red light under the ‘apple’ category. Thus the external object and it’s stimulus can be represented internally via the percept of an ‘apple’. Boom! <em>That thing is an apple!</em></p>
+<p>Without this linguistic category, or even a way to subdivide larger categories (e.g. <em>sweet, red, fruit</em>), we would not have the cognitive categories to interpret these different kinds of fruit as being different. We would lose the nuance of interpretation of different fruits, and thus have a word and category that referred to all fruit. (Such as the Toki Pona <em>kili</em> = ‘fruit’, ‘vegetable’, ‘mushroom’ ≈ ‘edible plant’)</p>
+<p>The weak version of the Sapir-Whorf Hypothesis, deemed <em>Linguistic Influence</em>, simply holds that these linguistic categories influence but do not fully define how we think. This is admittedly easier to test experimentally in a lab with test subjects of different linguistic backgrounds. For example the standard anglophone in both reading and spatial metaphor associates the flow from left to right as analogous with past to future. When asked what word comes ‘<em>before’</em> another in a sentence, anglophones look to the left. Thus when primed with horizontal cues the anglophone will more rapidly process notions of time and order. Whereas the standard sinophone associates past with up and the future with down. For the sinophone, the associations of 上 (shàng), conceptually linked to being spatially <em>up</em> and temporally <em>previous</em> (and converse 下, xià), results in faster processing in temporal questions when primed with vertical cues.  An interesting side thought about this is, do perhaps these cognitive benefits from correct priming instead result from the associations of spatial and temporal metaphor, or because of the innate process of ingrained reading direction and the processes associated with this movement. There is consensus agreement that in the examples of English and Mandarin, the two mechanisms are not unrelated. The theory holds that the direction of writing arose from the pre-existing linguistic metaphor association, rather than the other way around.</p>
+<p>A similar discussion, highlighting the division between relativist and universalist thinking, is experiments about colour perception.</p>
+<p>The universalists Berlin and Kay, examined 20 languages and the way they divided colour categories. They defined a colour category as being:</p>
+<ol>
+<li>Monolexemic (e.g. ‘orange’ as opposed to ‘yellow-red’)</li>
+<li>Monomorphemic (e.g. ‘blue’ as opposed to ‘blue-ish’</li>
+<li>Not a subset of greater category (e.g. ‘green not ‘emerald’ which is a subset of green)</li>
+<li>Isn’t only applicable to certain objects (e.g. ‘yellow’ as opposed to ‘blonde’)</li>
+<li>Is salient for all informants (e.g. “blue” as opposed to “tiffany™-colour”)</li>
+</ol>
+<p>Interesting they found that for languages with fewer than 11 categories, the categories always appeared in a specific pattern as the number of total categories increased. For languages with N categories, if:</p>
+<ul>
+<li>N = 2, ‘black’ AND ‘white’</li>
+<li>N = 3, add ‘red’</li>
+<li>N = 4, add ‘green’ OR ‘yellow’ but not both</li>
+<li>N = 5, add ‘green’ AND ‘ yellow’</li>
+<li>N = 6, add ‘blue’</li>
+<li>N = 7, add ‘brown’</li>
+<li>N ≥ 8, add ‘grey’ OR ‘orange’ OR ‘pink’ OR ‘purple’</li>
+</ul>
+<p>Interestingly colours were found to roughly refer to the same shades across languages, as noted in the Munsell Colour System (hue, value, chroma aka colour, brightness, saturation). This seems to suggest an evolutionary agreement on which colours are important to humans, or perhaps what colour stimuli we can perceive (recalling retinal and sensory neurology).</p>
+<p>We find that Toki Pona has been constructed as a N = 5, language and thus has the words: (pimeja = black) (walo = white) (loje = red) (laso = green) (jelo = yellow). As a language intentionally constructed by a linguist, it’s to be expected that this selection aligns with Berlin and Kay’s model for colour evolution.</p>
+<p>But the question then arises, how do we refer to other colours in N &lt; 6 languages like Toki Pona? Two handy tricks <em>polysemy</em> and use of <em>polylexemes</em>.</p>
+<p>Polysemy is the coexistence of multiple meanings (<em>sememes</em>) for a word, word-group, or word-bit (<em>morpheme</em>). This can been seen in some words in modern natural languages that have since developed N &gt; 11, but may still have polysemous words from earlier in its evolution. Some such examples are included below:</p>
+<table>
+<tbody>
+<tr>
+<td width="112">
+<p>Language</p>
+</td>
+<td width="163">
+<p>Blue/Green Polysemy</p>
+</td>
+<td width="144">
+<p>Blue Monosemy</p>
+</td>
+<td width="147">
+<p>Green Monosemy</p>
+</td>
+</tr>
+<tr>
+<td width="112">
+<p>Chinese</p>
+</td>
+<td width="163">
+<p><a href="https://en.wiktionary.org/wiki/%E9%9D%92">青</a> (qīng) </p>
+</td>
+<td width="144">
+<p><a href="https://en.wiktionary.org/wiki/%E8%93%9D">蓝</a> (lán)</p>
+</td>
+<td width="147">
+<p><a href="https://en.wiktionary.org/wiki/%E7%BB%BF">绿</a> (lǜ) </p>
+</td>
+</tr>
+<tr>
+<td width="112">
+<p>Arabic</p>
+</td>
+<td width="163">
+<p> الخضراء (al-khaḍrā')</p>
+</td>
+<td width="144">
+<p> أزرق (azraq)</p>
+</td>
+<td width="147">
+<p>أخضر (akhḍar)</p>
+</td>
+</tr>
+<tr>
+<td width="112">
+<p>Vietnamese</p>
+</td>
+<td width="163">
+<p>xanh</p>
+</td>
+<td width="144">
+<p> </p>
+</td>
+<td width="147">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="112">
+<p>Tswana</p>
+</td>
+<td width="163">
+<p>tala</p>
+</td>
+<td width="144">
+<p> </p>
+</td>
+<td width="147">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="112">
+<p>Toki Pona</p>
+</td>
+<td width="163">
+<p>laso</p>
+</td>
+<td width="144">
+<p> </p>
+</td>
+<td width="147">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>A polylexeme is a unit made of two lexemes rammed together, as in the example “yellow-red” to mean “orange”. Vietnamese employs a similar in its Blue/Green distinctions by adding other kinds of descriptors to the root <em>xanh:</em></p>
+<ul>
+<li><em>xanh da trời = ‘blue’</em></li>
+<li><em>xanh dương = ‘sky blue / azure’</em></li>
+<li><em>xanh nước biển = ‘ocean blue’</em></li>
+<li><em>xanh lá cây = ‘leaf green’</em></li>
+</ul>
+<p>Toki Pona can employ polylemes in these two systems of mixing and describing systems:</p>
+<ul>
+<li><em>loje laso</em> (blue-ish red) or <em>laso loje</em> (red-ish blue) ≈ ‘purple’</li>
+<li><em>jelo loje</em> (red-ish yellow) ≈ ‘orange’</li>
+</ul>
+<p> OR perhaps</p>
+<ul>
+<li><em>loje pi telo loje </em>(red of ‘red water’) ≈ ‘blood-red’</li>
+<li><em>laso kasi</em> VS <em>laso pi</em> <em>telo suli </em>(blue/green of plant/leaf VS blue/green of ‘big water’) ≈ ‘leaf-green’ VS ‘ocean-blue’</li>
+</ul>
+<p>So whilst the <em>linguistic relativists</em> might say that these speakers of N &lt; 6 languages view colour through the lenses and combinations of the N categories of colour and thus categories of thought, the <em>linguistic universalists</em> would instead demand every culture who can gaze upon the blue ocean will have a way to conceptualise that colour distinct from the colour of a leaf, even if they have no monolexemic monomorpheme to describe it.</p>
+<p>I can’t imagine there will ever be a consensus amongst the linguists, but as a someone who sits in the sidelines watching (<em>sports metaphor—ha!)</em>, it’s fun to see what happens.</p>
+<hr>
+<p>Banner image edited from image of <em>sitelen pona</em> from <em>Toki Pona: The Language of Good</em></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Jung’s Collective Unconscious &amp; Archetypes</title>
+        <author>
+            <name>Alexander Nathan</name>
+        </author>
+        <link href="https://djeasey.github.io/staghorn-blog/jungs-archetypes/"/>
+        <id>https://djeasey.github.io/staghorn-blog/jungs-archetypes/</id>
+
+        <updated>2019-10-21T12:27:55+11:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/11/archetype-text.jpg" alt="" />
+                    A similar concept to Aarne-Thompson-Uther indices is the Swiss Psychiatrist Carl Jung’s concept of Archetypes. Intellectual adversary and friend to Sigmund Freud (and potential repressed but reciprocated homo-erotic object of desire), Jung presented similar but divergent thoughts on Freud’s new field of psychoanalysis. Freud’s Model of&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/11/archetype-text.jpg" alt="" />
+                <p id="mcetoc_1dnhlbveh2">A similar concept to Aarne-Thompson-Uther indices is the Swiss Psychiatrist Carl Jung’s concept of <em>Archetypes</em>. Intellectual adversary and friend to Sigmund Freud (and potential repressed but reciprocated homo-erotic object of desire), Jung presented similar but divergent thoughts on Freud’s new field of psychoanalysis. </p>
+<p>Freud’s Model of the psych consisted of three psychic apparatuses:</p>
+<ul>
+<li><strong>The Id (Latin: “it”)</strong> = Disorganised instinctual component constructed of desires, impulses, and drives, present from birth. Driven by the <em>Pleasure Principle</em> to seek gratification and avoiding pain. This apparatus is completely unconscious and unknown to the conscious mind.</li>
+<li><strong>The Ego (Latin: “I”)</strong> = The organised, cognitive and executive component which seeks to restrain the Id by grounding itself in the reality of the world. Driven by the <em>Reality Principle</em> to seek ways to gratify the id in a way which will maximise long term pleasure and minimise pain. This is achieved by rationalization and reason. This apparatus is largely conscious and sub/preconscious.</li>
+<li><strong>The Super-Ego</strong> = The internalisation of outside world’s culture and rules. The “conscience”, the Super-Ego contradicts the Id, wanting to act with decorum and is outraged and shamed by the depravity of the Id. This apparatus spans from the conscious, via the pre-conscious, into the deep unconscious.</li>
+</ul>
+<p>Thus Freud could discuss mental disorders as conflicts between the <em>Ego</em> and the <em>Id </em>(<em>Transference Neuroses</em>)<em>,</em> between the <em>Ego</em> and the<em> Super-Ego</em> (<em>Narcissistic Neuroses</em>)<em>,</em> and between the <em>Ego</em> and the external world (<em>Psychoses)</em>.</p>
+<p>Meanwhile, Jung divided the psyche into the conscious <em>Ego</em>, the <em>Personal Unconscious</em> (our recalled and repressed memories), and the <em>Collective Unconscious</em>.</p>
+<p>Jung’s take, informed heavily by Eastern philosophy, was that the <em>Collective Unconscious</em> was populated by human instinct and abstractions called ‘<em>Archetypes’</em>.  Jungian psychology, now termed <em>Analytic Psychology</em>, examined how the psych strove, and more often than not failed and stagnated, to pursue its goal of self-realisation via the process of individuation, the formation of a robust and whole sense of self. The interplays between states of progress in individuation and issues encountered would be seen by analysing a patient’s dreams and thoughts. Symbolic elements of dreams for example would considered the implication of these symbolic archetypes, what they meant to the patient, and how the symbolic interplay of their narrative could be interpreted as representing psychological states.</p>
+<p>These archetypes are universally relatable symbols and can be considered a simplified version of Aarne-Thompson-Uther’s motifs: A great/earth mother, a wise sage, the duality of light and dark. Some of these archetypes, being abstract symbols, can over-lap or be subsets of each other, others can be mixed flavours.</p>
+<figure class="post__image post__image--right" ><img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/3/Venus_de_Milo_Paris_2_September_2013_001.jpg" alt="" width="2848" height="4272">
+<figcaption >
+<p>The "Venus de Milo" by Alexandros of Antioche, a marble sculpture of the Greek goddess Aphrodite. When discussing the Greek gods in terms of Jungian Archetypes, Aphrodite (the embodiment of love and beauty) is a projected and symbolic incarnation of internal archetypes (here being of feminine sexuality, love, and beauty) (photo by <a href="https://commons.wikimedia.org/wiki/File:Venus_de_Milo,_Paris_2_September_2013_001.jpg">Tom King</a>)</p>
+</figcaption>
+</figure>
+<p>These internal archetypes are projected onto the external world as simplified way of viewing complex ideas. June Singer discussed some more well-studied archetypes in terms of opposites, one set pertaining to the <em>Ego</em> the other to the abstract notion of the <em>Shadow</em>. Light (ego) is opposed by Darkness (shadow), the Old Wise Man (ego) is opposed by the Trickster (shadow), the Great Mother (ego) is opposed by the Tyrannical Father (shadow), et cetera. The implication of the Chinese philosophy of Yin and Yang, is unmistakable.</p>
+<p>Jung however would argue that the metaphysics and cosmologies of eastern philosophy, of astrology, of alchemy, of mythology, all of which he was well versed in, were simply the human psyche projecting these archetypical symbols onto external phenomena. The process of Alchemy, it’s various procedures, were imbued with the symbols of the internal psych, with the progress towards <em>The Great Work</em> of Alchemy (e.g. formation of the <em>Philosopher’s Stone) </em>marked by a progress of archetypical symbols towards <em>The Great Work</em> of personal psychology: Self-Realisation.</p>
+<p>So what are these archetypes? Well given the ethereal and blended nature, delineating individual and unique archetypes is difficult, and at times down-right futile. Nevertheless a number of Jungian psychologists, mystics, artists, and anthropologists have tried.</p>
+<p>In his posthumously compiled works <em>Archetypes of the Collective Unconscious</em>, Jung explicitly refers to 12 main archetypes, whilst acknowledging the existence of many others:</p>
+<ul>
+<li>The Self</li>
+<li>The Anima</li>
+<li>The Animus</li>
+<li>The Shadow</li>
+<li>The Persona</li>
+<li>The Father</li>
+<li>The Mother</li>
+<li>The Child</li>
+<li>The Wise Old (Sage)</li>
+<li>The Hero</li>
+<li>The Trickster</li>
+<li>The Maiden</li>
+</ul>
+<p>In Margaret Mark and Carol Pearson’s book <em>The Hero and the Outlaw</em> a guide to distinct branding directed by principles of myth and pop-psychology define a different 12 archetypes:</p>
+<ul>
+<li>The Innocent</li>
+<li>The Orphan</li>
+<li>The Hero</li>
+<li>The Caregiver</li>
+<li>The Explorer</li>
+<li>The Rebel</li>
+<li>The Lover</li>
+<li>The Creator</li>
+<li>The Jester</li>
+<li>The Sage</li>
+<li>The Magician</li>
+<li>The Ruler </li>
+</ul>
+<p>This has been used also as a system of personality typing and alignment. Largely popular personality typing systems can be considered to employ ideas of archetypes such as: personality enneagrams, various zodiacs, Myer’s Briggs personality types etc.</p>
+<hr>
+<p>Banner image edited from an <a href="https://commons.wikimedia.org/wiki/File:Greek_Eros_vase.png">attic red vase</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Introduction to Phytohormones</title>
+        <author>
+            <name>Alexander Nathan</name>
+        </author>
+        <link href="https://djeasey.github.io/staghorn-blog/phytohormones-basics/"/>
+        <id>https://djeasey.github.io/staghorn-blog/phytohormones-basics/</id>
+
+        <updated>2019-10-21T12:25:00+11:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/10/pothos-text.jpg" alt="" />
+                    Why do we prune? It helps promote more proximal growth and development of the plant, but how? The easy answer that “the plant can spend more energy on growing wide as opposed to tall”, whilst charmingly personifying doesn’t actually help to explain the increased rate of&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/10/pothos-text.jpg" alt="" />
+                <p id="mcetoc_1dnhkmqrg8">Why do we prune? It helps promote more proximal growth and development of the plant, but how? The easy answer that “the plant can spend more energy on growing wide as opposed to tall”, whilst charmingly personifying doesn’t actually help to explain the increased rate of lateral growth. Furthermore it doesn’t really provide any mechanistic justification for not just simply letting your plant grow un-pruned until it has achieved the desired lateral development.</p>
+<p> And yet we see pruning the most distal parts seems to promote lateral growth. Why is that? To answer this, let’s have a quick refresher on plant endocrinology.</p>
+<h2 id="mcetoc_1dnltjvj50"><u>Plant Hormone Basics</u></h2>
+<p>There are five major groups of <em>phytohormones </em>(plant hormones) discussed in modern botany:</p>
+<ul>
+<li><strong><em>Abscisic Acid</em></strong></li>
+<li><strong><em>Auxins</em></strong></li>
+<li><strong><em>Cytokinins</em></strong></li>
+<li><strong><em>Ethylene</em></strong></li>
+<li><strong><em>Gibberellins</em></strong></li>
+</ul>
+<p>Below is a (very basic) description of what they do.</p>
+<p><strong><em>Abscisic Acid</em> (ABA)</strong> is the chief water stress signal. When roots detect that water is at a critical level they release ABA into the plant vasculature. Similar to a human <em>neurotransmitters</em> and neural <em>action potential</em> functioning, ABA triggers an influx of Ca<sup>2+</sup> and <em>membrane depolarisation</em> of stomatal <em>guard cells</em> (the cells which open/close <em>stomata</em>, the microscopic windows in a leaf which allow water and air to be breathed in and out of the plant). This results in efflux of Ca<sup>2+</sup>, K<sup>+</sup>, and associated anions. The loss of these ions, draws water out of the guard cells, mediating stomatal closure, reducing potential water losses by <em>transpiration</em>.</p>
+<p> At this point it is worth mentioning the topic of <em>Meristems</em>, locations of embryonic plant tissue capable of dividing and growing branches/roots. <em>Meristematic</em> <em>tissue</em> can be located apically (end of stems/vines/roots) or lateral (branch points).</p>
+<p><strong><em>Auxins</em></strong> care about length over width. This is to say they promote <em>apical dominance</em>, longer stems and roots with less lateral/axillary budding. Produced chiefly in the apical meristems, Auxins signal for lateral buds (dormant embryonic <em>meristems</em>) to remain dormant, causing growth to be predominantly apical rather than lateral. Thus in the case of <em>Epipremnum aureum </em>pruning, we are removing apical meristems, promoting development of lateral buds, and overall fullness of the plant, rather than length.</p>
+<p> In a related manner, <em>Auxin</em> is the chief of <em>phototropism</em>, the curving growth of plants towards a light source. Produced in the stem tip, Auxin localises to the darker side of the plant. Thus, when the auxin promotes more pronounced growth on this side, the overall effect is to arch the stem towards the light. The same processes facilitates <em>gravitropism </em>(aka <em>geotropism</em>), the growth of root in the direction of gravity by gravitationally-dictated auxin distribution in the roots. This is the process which is being exploited by exogenous <em>Auxin</em> when industrial ‘Rooting Hormone’ is added to plants or cuttings.</p>
+<p><strong><em>Cytokinins</em></strong> (not to be mistaken for human kinins of the <em>Kinin-Kallikrein system</em>) promote cell division and inhibit aging of greenery. Their function is far too complex to attempt even a basic discussion here, but in short, Cytokinins work in a system of balances and ratios with Auxin to drive embryonic patterning and differentiation, <em>callus</em> formation.</p>
+<p><strong><em>Ethylene </em></strong>(aka Ethene in organic chemistry, H<sub>2</sub>C=CH<sub>2</sub>)  is the cause of the proverbial ‘rotten apple’ spoiling the bunch, and ripe bananas ‘infecting’ green bananas with their ripe-ness. The only known gaseous plant hormone, <em>Ethylene</em> signals for the opening of flowers, the ripening of fruit, the shedding (<em>abscission</em>) of leaves, and ultimately rotting of proverbial apples. The culmination of a series of biosynthetic operations and the <em>Methionine/Yang cycle</em> (which gives me <em>Citric Acid/Krebb’s</em> undergrad war flashbacks), <em>Ethylene</em> is formed by the oxidation of ACC. Thus the agricultural world has found that keep produce in high-CO<sub>2</sub>, low-O<sub>2</sub> environments reduces ripening and rotting.</p>
+<p><strong><em>Gibberellins </em></strong>(GAs) main concern is <em>internode</em> elongation, with lesser roles in germination, differentiation, and embryonic patterning, and synthesised in areas of active plant growth. Plants with low/defective/inhibited <em>GAs</em> present with <em>brachytic</em> <em>dwarfism</em> (internodal shortening). This causes short stems and close clustering of nodes (and thus leaves/branches/flowers etc). Conversely <em>GA</em> excess results in long stems, sparse branching, and elongated plants. The understanding of this hormone plays an important role in forming high-yielding varieties of agricultural goods (dwarf cereals, elongated sugarcane).</p>
+<p>So<em>, </em>whenever we hear someone discussing plant-pruning in the name of lateral growth, we can thank our little friends<em> Auxins</em> and<em> Gibberellins</em>.</p>
+<hr>
+<p>Banner image edited from photo by <a href="https://commons.wikimedia.org/wiki/File:Money_plant_(Epipremnum_aureum)_1.jpg">Mokkie</a> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Nephrolithiasis Basics</title>
+        <author>
+            <name>Alexander Nathan</name>
+        </author>
+        <link href="https://djeasey.github.io/staghorn-blog/nephrolithiasis/"/>
+        <id>https://djeasey.github.io/staghorn-blog/nephrolithiasis/</id>
+
+        <updated>2019-10-21T12:24:31+11:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/9/kidney-stones-text.jpg" alt="" />
+                    Stone Types and Urinary Chemical CausesSpatial relationship between kidneys and their neighbouring visceraCalcium Oxalate (75%) ↑ Calcium ↑ Oxalate ↑ Urate ↑ CitrateOxalate: meat, dietary sodium, nuts, beans, cruciferous vegetables, fatty acid malabs (Crohn’s), high vit C, low B6Uric Acid (10%) ↑ UrateAciduriaUric Acid: Alcohol, seafood, fatty&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/9/kidney-stones-text.jpg" alt="" />
+                <div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1dnhk6jlhe">Stone Types and Urinary Chemical Causes</a></li>
+<li><a href="#mcetoc_1dnltdiso0"> Epidemiology</a>
+<ul>
+<li><a href="#mcetoc_1dnltdobr1">Stone-Specific Risk Factors </a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1dnltdsqa2">Clinical Presentation and Diagnosis</a></li>
+<li><a href="#mcetoc_1dnlte9i1c">Management</a></li>
+<li><a href="#mcetoc_1dnltebsmd">Prognosis and Complications</a></li>
+</ul>
+</div>
+<h2 id="mcetoc_1dnhk6jlhe"><u>Stone Types and Urinary Chemical Causes</u></h2>
+<figure class="post__image post__image--right" ><img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/1/Gray1122.png" alt="Gray's Anatomy (20e) Plate 1122" width="515" height="400">
+<figcaption >Spatial relationship between kidneys and their neighbouring viscera</figcaption>
+</figure>
+<ul>
+<li><strong>Calcium Oxalate (75%)</strong> ↑ Calcium ↑ Oxalate ↑ Urate ↑ Citrate
+<ul>
+<li>Oxalate: meat, dietary sodium, nuts, beans, cruciferous vegetables, fatty acid malabs (Crohn’s), high vit C, low B6</li>
+</ul>
+</li>
+<li><strong>Uric Acid (10%)</strong> ↑ Urate
+<ul>
+<li>Aciduria</li>
+<li>Uric Acid: Alcohol, seafood, fatty and organ meats</li>
+</ul>
+</li>
+<li><strong>Struvite (5%)</strong> ↑ Urease Positive UTIs
+<ul>
+<li>Proteus mirabilis, Klebsiella, Pseudomonas UTIs</li>
+<li>Form largest stones, including STAGHORN calculi (which fill the renal pelvis and calyces)</li>
+</ul>
+</li>
+<li><strong>Calcium Phosphate</strong> ↑ Calcium ↑ Phosphate</li>
+<li><strong>Cystine</strong> ↑ Cysteine (familial cysteinuria)</li>
+</ul>
+<h2 id="mcetoc_1dnltdiso0"> <u>Epidemiology</u></h2>
+<p>General Risk Factors</p>
+<ul>
+<li>♂ &gt; ♀</li>
+<li>30-60 years old</li>
+<li>Dehydration</li>
+<li>+ve FHx or PHx</li>
+</ul>
+<h3 id="mcetoc_1dnltdobr1">Stone-Specific Risk Factors </h3>
+<table>
+<tbody>
+<tr>
+<td width="94">
+<p class="align-center"><strong> </strong></p>
+</td>
+<td class="align-center" width="94">
+<p><strong>Risk Factors</strong></p>
+</td>
+<td colspan="4" width="377">
+<p class="align-center"><strong>Prevention</strong></p>
+</td>
+</tr>
+<tr>
+<td width="94">
+<p><strong>Calcium Oxalate</strong></p>
+</td>
+<td width="94">
+<p>↑ Calcium</p>
+<p>↑ Oxalate</p>
+<p>↑ Citrate</p>
+<p>↓ Urine pH</p>
+</td>
+<td width="94">
+<p>Urinary alkalinisation</p>
+</td>
+<td width="94">
+<p>Sufficient Dietary Calcium*</p>
+<p>↓ Oxalate Rich Food</p>
+</td>
+<td rowspan="2" width="94">
+<p>↓ Dietary salt ↓ Animal proteins    Thiazide diuretics (for isolated  cases of ↑ urinary calcium</p>
+</td>
+<td rowspan="5" width="94">
+<p>↑ Water</p>
+<p>&gt; 2½ L/d</p>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="94">
+<p><strong>Calcium Phosphate</strong></p>
+</td>
+<td width="94">
+<p>↑ PTH</p>
+<p>Type 1 RTA</p>
+</td>
+<td width="94">
+<p>Urinary acidisation</p>
+</td>
+<td width="94"> </td>
+</tr>
+<tr>
+<td width="94">
+<p><strong>Uric Acid</strong></p>
+</td>
+<td width="94">
+<p>↓ Urine pH</p>
+<p>↑ Urate</p>
+</td>
+<td width="94">
+<p>Urinary alkalinisation</p>
+</td>
+<td width="94">
+<p>Allopurinol</p>
+</td>
+<td width="94">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="94">
+<p><strong>Struvite</strong></p>
+</td>
+<td width="94">
+<p>Urease + UTI</p>
+</td>
+<td width="94">
+<p>Urinary acidisation</p>
+</td>
+<td width="94">
+<p>UTI prevention and treatment</p>
+</td>
+<td width="94"> </td>
+</tr>
+<tr>
+<td width="94">
+<p><strong>Cystine</strong></p>
+</td>
+<td width="94">
+<p>Cystinuria</p>
+</td>
+<td width="94">
+<p>Urinary alkalinisation</p>
+</td>
+<td width="94"> </td>
+<td width="94"> </td>
+</tr>
+</tbody>
+</table>
+<p>* low calcium intake increases oxalate reabsorption </p>
+<figure class="post__image post__image--right" ><img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/1/Gray1128.png" alt="Gray's Anatomy (20e) Plate 1128" width="602" height="600">
+<figcaption >A nephron schematic, because who doesn't love a good nephron schematic?</figcaption>
+</figure>
+<p>Note that the three locations that stones are most likely to get ‘stuck’ are:</p>
+<ul>
+<li>the pelvi-ureteric junction (PUJ)</li>
+<li>the ureter enters the pelvis (crossesing the common iliac artery bifurcation)</li>
+<li>the vesicoureteric junction (VUJ)</li>
+</ul>
+<h2 id="mcetoc_1dnltdsqa2"><u>Clinical Presentation and Diagnosis</u></h2>
+<ul>
+<li>Symptoms
+<ul>
+<li>Paroxysmal progressive unilateral flank colic</li>
+<li>Radiation: to lower abdomen, groin, labia, testicles, perineum</li>
+<li>Haematuria</li>
+<li>Nausea/Vomiting</li>
+<li>Dysuria, Frequency, Urgency</li>
+</ul>
+</li>
+<li>Signs
+<ul>
+<li>Observed haematuria</li>
+<li>Reduced bowel sounds</li>
+</ul>
+</li>
+<li>Investigations
+<ul>
+<li>WBC (?UTI)</li>
+<li>BUN, Creatinine (?AKI)</li>
+<li>Dipstick (?UTI, pH &gt;7 ?Urease +)</li>
+<li>Urine Microscopy + Straining (?Crystals)
+<ul>
+<li>Dumbbell/Octahedron (?Oxalate)</li>
+<li>Rhomboid/Needles (?Urate)</li>
+<li>Coffin-Prism (?Struvite)</li>
+</ul>
+</li>
+<li>Urine Culture (?UTI)</li>
+<li>Bloods (UEC, PTH, Urate, HCO3, ALP)</li>
+<li>Nonenhanced CT Abdo-Pelvis (Gold-Standard)
+<ul>
+<li>Calculus size, site, densite, obstruction, hydronephrosis)</li>
+</ul>
+</li>
+<li>Ultrasound (pregnant, children, gynae/abdo DDx)</li>
+<li>KUB X-Ray
+<ul>
+<li>Radiopaque = Calcium-containing</li>
+<li>Weakly + = Struvite or Cysteine</li>
+<li>Radiolucent = Urate</li>
+</ul>
+</li>
+<li>Intravenous pyelogram</li>
+</ul>
+</li>
+<li>Differentials
+<ul>
+<li>Testicular torsion</li>
+<li>Acute abdomen</li>
+<li>Hydronephrosis</li>
+<li>UTI</li>
+</ul>
+</li>
+</ul>
+<h2 id="mcetoc_1dnlte9i1c"><u>Management</u></h2>
+<ul>
+<li>?Complicated Urolithiasis
+<ul>
+<li>High-grade hydronephrosis</li>
+<li>Pyelonephritis</li>
+<li>Urosepsis</li>
+<li>AKI</li>
+<li>Vomiting or Intractable Pain</li>
+<li>&lt; 4w of Stone Hx</li>
+<li>Failed medical therapy</li>
+</ul>
+</li>
+<li>Stable Pt, Uncomplicated Stone, &lt;10mm
+<ul>
+<li>Support and Surveil</li>
+<li>Hydrate</li>
+<li>NSAIDs, IV Morph</li>
+<li>Tamsulosin (a-blocker) or Nifedipine (CCB)</li>
+</ul>
+</li>
+<li>Uterorenoscopy + Extracorporal Shockwave Lithotripsy  for &lt; 20mm</li>
+<li>Percutaneous Nephrolithotomy for &gt;20mm</li>
+<li>Complicated Cases
+<ul>
+<li>Ureteral stenting or percutaneous nephrostomy (pyelo/hydro-decompression)</li>
+<li>Shock Wave Lithotripsy</li>
+<li>Last resort = laproscopic or open surgical removal (e.g. staghorn stones)</li>
+</ul>
+</li>
+<li>
+<p id="mcetoc_1dnhk890bf">If known stone cause = Urine pH Modification</p>
+</li>
+</ul>
+<h2 id="mcetoc_1dnltebsmd"><u>Prognosis and Complications</u></h2>
+<ul>
+<li>&lt;5mm often to pass spontaneously,</li>
+<li>&gt;10mm typically won’t, especially if ureteric sphincter or proximal.</li>
+<li>50% 10 year relapse rate</li>
+<li>Complications
+<ul>
+<li>Recurrent UTI → pyelonephritis, urosepsis, and perinephric abscess</li>
+<li>Obstruction → hydronephrosis → glomerular damage</li>
+<li>Acute kidney injury</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Banner image edited from glomerulus micrograph by <a href="https://commons.wikimedia.org/wiki/File:Renal_corpuscle.jpg">Ed Uthman</a></p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>What the !#%$ is the internet? &amp; Other Interrogatives</title>
         <author>
@@ -138,23 +713,23 @@
         </content>
     </entry>
     <entry>
-        <title>Toki Pona, The lili-est Language You Haven’t Heard of Yet</title>
+        <title>Toki Pona: The lili-est Language You Haven’t Heard of Yet</title>
         <author>
             <name>Alexander Nathan</name>
         </author>
         <link href="https://djeasey.github.io/staghorn-blog/blank-linguistics/"/>
         <id>https://djeasey.github.io/staghorn-blog/blank-linguistics/</id>
 
-        <updated>2019-10-21T11:51:43+11:00</updated>
+        <updated>2019-10-21T12:28:36+11:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona.jpg" alt="" />
+                        <img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona-banner.jpg" alt="" />
                     What Even is Toki Pona?Since my first high school Spanish lesson I realised how much I loved languages. I love learning languages. I love learning about languages. I love discovering weird quirks and paradoxes that my Anglophonic would never have considered. Little did Señora Cooper&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona.jpg" alt="" />
+                    <img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona-banner.jpg" alt="" />
                 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
@@ -334,14 +909,14 @@
 <figure class="post__image post__image" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/4/toki-pona2.jpg" alt="" width="3877" height="5107">
 <figcaption >Comparison of Basic English and Toki Pona Sentence Structure</figcaption>
 </figure>
-<h2 id="mcetoc_1dnhm8e918"><strong>GEEK NOTES: Introduction to The Sapir-Whorf Hypothesis</strong></h2>
-<p><strong> </strong>Today let’s pitch the <em>Linguistic Relativists</em> against the <em>Linguistic Universalists</em> via Toki Pona’s use of colour.</p>
+<h2 id="mcetoc_1dnhm8e918"><strong>GEEK NOTES: <a href="https://djeasey.github.io/staghorn-blog/sapir-whorf-basics/">Introduction to The Sapir-Whorf Hypothesis</a></strong></h2>
+<p>Today let’s pitch the <em>Linguistic Relativists</em> against the <em>Linguistic Universalists</em> via Toki Pona’s use of colour.</p>
 <p><strong> </strong><u>The Sapir-Whorf Hypothesis</u></p>
 <blockquote>
 <p>“one's language determines one's conception of the world”</p>
 </blockquote>
 <p>This linguistic hypothesis claims that not only do we externally vocalise our perceptions and thoughts in a manner dictated by the characteristics and breadth of our language, but that we also internally frame our thoughts in a manner dictated by our language.</p>
-<p> The Sapir-Whorf Hypothesis (SWH), the implications of which are often referred to as <em>Linguistic Relativity</em>, arose from the 19<sup>th</sup> and 20<sup>th</sup> century writings of Edward Sapir and Benjamin Lee Whorf (amongst others). The history of this school of thought is, as one can expect from the anthropology of the era, <em>dripping</em> in racism and notions of European political and intellectual supremacy. Nevertheless, the SWH discussed in isolation does lend itself to interesting conversations. As such I’m not going to talk much about the analysis of linguistic relativity with regards to the Inuit or Hopi peoples, because I feel that I lack the sufficient skills to extract the useful knowledge from what is otherwise a dumpster fire of flaming racist garbage.</p>
+<p>The Sapir-Whorf Hypothesis (SWH), the implications of which are often referred to as <em>Linguistic Relativity</em>, arose from the 19<sup>th</sup> and 20<sup>th</sup> century writings of Edward Sapir and Benjamin Lee Whorf (amongst others). The history of this school of thought is, as one can expect from the anthropology of the era, <em>dripping</em> in racism and notions of European political and intellectual supremacy. Nevertheless, the SWH discussed in isolation does lend itself to interesting conversations. As such I’m not going to talk much about the analysis of linguistic relativity with regards to the Inuit or Hopi peoples, because I feel that I lack the sufficient skills to extract the useful knowledge from what is otherwise a dumpster fire of flaming racist garbage.</p>
 <p>So I shall return to the SWH. For this, I will choose to use the terminology I am more familiar with, that of neurology and psych:</p>
 <ul>
 <li><strong>Perception</strong> = The process of observing/being aware of an external world object stimulus and internalising it through the senses and pathways of thought to conscious and unconscious mind. “see an apple, think an apple”</li>
@@ -498,7 +1073,7 @@
         <link href="https://djeasey.github.io/staghorn-blog/archetypes-in-classics/"/>
         <id>https://djeasey.github.io/staghorn-blog/archetypes-in-classics/</id>
 
-        <updated>2019-10-21T11:43:59+11:00</updated>
+        <updated>2019-10-21T12:28:16+11:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://djeasey.github.io/staghorn-blog/media/posts/3/archetype.jpg" alt="" />
@@ -548,7 +1123,7 @@
 <p>These motifs seem to transcend age and culture, be it the “<em>D113.1. 1 Werewolf</em>” of the historical Swiss Werewolf Trials, or the “<em>D10-D99 Transformation of man to different man</em>” of Harry Potter’s Polyjuice Potion, the “<em>C961.1 Transformation to pillar of salt for breaking taboo</em>” of the Bible’s Wife of Lot or the Greek’s Eurydice.</p>
 <p>Whilst some of the vocabulary of the system is evidently grounded in Germanic folktale, the applications have extended beyond cultures. For example, concepts like <em>“G. Ogres”</em>, can be considered to include general <em>Non-Mundane Beasts</em> or perhaps <em>Demons</em>. </p>
 <p>This system of analysing folktales creates a lens though which we can view all narratives. No culture’s legends are so unique that they cannot tick a couple of boxes. No ancient fable is so remote that it’s structure cannot be identified. These systems show us that humans are not so different and our stories are the same. For what is the purpose of storytelling? To explain the phenomenon of lightning to our pre-electrophysical communities? To teach our children not to walk idly in the woods on their way to Grandma? Or maybe just to keep us entertained while we huddle around the fire or drift off to sleep, dreaming of shoes made of glass and bears eating porridge. </p>
-<h2 id="mcetoc_1dnhlbveh2"><strong>GEEK NOTES: Jung’s Collective Unconscious &amp; Archetypes</strong></h2>
+<h2 id="mcetoc_1dnhlbveh2"><strong>GEEK NOTES: <a href="https://djeasey.github.io/staghorn-blog/jungs-archetypes/">Jung’s Collective Unconscious &amp; Archetypes</a></strong></h2>
 <p>A similar concept to Aarne-Thompson-Uther indices is the Swiss Psychiatrist Carl Jung’s concept of <em>Archetypes</em>. Intellectual adversary and friend to Sigmund Freud (and potential repressed but reciprocated homo-erotic object of desire), Jung presented similar but divergent thoughts on Freud’s new field of psychoanalysis. </p>
 <p>Freud’s Model of the psych consisted of three psychic apparatuses:</p>
 <ul>
@@ -612,7 +1187,7 @@
         <link href="https://djeasey.github.io/staghorn-blog/pothos-basics/"/>
         <id>https://djeasey.github.io/staghorn-blog/pothos-basics/</id>
 
-        <updated>2019-10-21T11:41:24+11:00</updated>
+        <updated>2019-10-21T12:26:54+11:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://djeasey.github.io/staghorn-blog/media/posts/2/pothos.jpg" alt="" />
@@ -709,7 +1284,7 @@
 <figure class="post__image post__image" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/2/Pothos1.jpg" alt="" width="2759" height="3676">
 <figcaption >Summary of Water Propagation of Pothos</figcaption>
 </figure>
-<h2 id="mcetoc_1dnhkmqrg8"><strong>GEEK NOTES: Introduction to Phytohormones</strong></h2>
+<h2 id="mcetoc_1dnhkmqrg8"><strong>GEEK NOTES: <a href="https://djeasey.github.io/staghorn-blog/phytohormones-basics/">Introduction to Phytohormones</a></strong></h2>
 <p>But why prune in the first place? As mentioned above, it helps promote more proximal growth and development of the plant, but how? The easy answer that “the plant can spend more energy on growing wide as opposed to tall”, whilst charmingly personifying doesn’t actually help to explain the increased rate of lateral growth. Furthermore it doesn’t really provide any mechanistic justification for not just simply letting your plant grow un-pruned until it has achieved the desired lateral development.</p>
 <p> And yet we see pruning the most distal parts seems to promote lateral growth. Why is that? To answer this, let’s have a quick refresher on plant endocrinology.</p>
 <p><u>Plant Hormone Basics</u></p>
@@ -743,7 +1318,7 @@
         <link href="https://djeasey.github.io/staghorn-blog/kidney-stones-101/"/>
         <id>https://djeasey.github.io/staghorn-blog/kidney-stones-101/</id>
 
-        <updated>2019-10-21T11:31:22+11:00</updated>
+        <updated>2019-10-21T12:27:48+11:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://djeasey.github.io/staghorn-blog/media/posts/1/kidney-stones.jpg" alt="" />
@@ -804,7 +1379,7 @@
 <p>As always, if you think you might have a kidney stone, are in any pain, or are concerned about your health in the short or long term, go see a doctor. If you're in crippling agony, skip down to your local <em>Emergency Department </em>post haste. If you're not currently in extreme pain but have some concerns, go see your <em>GP</em>.</p>
 <p class="msg msg--highlight align-left">If you don't have a regulary GP, which I absolutely recommend you do if you can, I suggest you find an affordable/bulk-billing clinic to regularly attend just so you are on their local files. This <em>IMMENSELY</em> helps the doctors do their jobs better.</p>
 <p><em>[Summary Infographic on it's way]</em></p>
-<h2 id="mcetoc_1dnhk6jlhe"><strong>GEEK NOTES (Med Student Study Notes): Nephrolithiasis Basics</strong></h2>
+<h2 id="mcetoc_1dnhk6jlhe">GEEK NOTES (Med Student Study Notes):  <a href="https://djeasey.github.io/staghorn-blog/nephrolithiasis/">Nephrolithiasis Basics</a></h2>
 <p><u>Stone Types and Urinary Chemical Causes</u></p>
 <figure class="post__image post__image--right" ><img src="https://djeasey.github.io/staghorn-blog/media/posts/1/Gray1122.png" alt="Gray's Anatomy (20e) Plate 1122" width="515" height="400">
 <figcaption >Spatial relationship between kidneys and their neighbouring viscera</figcaption>
