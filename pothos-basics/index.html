@@ -370,49 +370,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </nav>
 
 
-         <div class="post__comments">
-            <div class="wrapper">
-               <h2 class="h5">
-                  Comments
-               </h2>
-               <div id="disqus_thread"></div>
-               <script>
-                   var disqus_config = function () {
-                       this.page.url = 'https://staghornblog.github.io/staghorn-blog/pothos-basics/';
-               		this.page.identifier = '2';
-                       this.page.title = ' Propagating Pothos &amp; Why We Prune';
-                   };
-               
-                   var disqus_loaded = false;
-               
-                   function publiiLoadDisqus() {
-                       if(disqus_loaded) {
-                           return false;
-                       }
-               
-                       var top = document.getElementById('disqus_thread').offsetTop;
-               
-                       if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
-                           disqus_loaded = true;
-               
-                           (function () {
-                               var d = document, s = d.createElement('script');
-                               s.src = 'https://staghornblog.disqus.com/embed.js';
-                               s.setAttribute('data-timestamp', +new Date());
-                               (d.head || d.body).appendChild(s);
-                           })();
-                       }
-                   }
-               
-                   publiiLoadDisqus();
-               
-                   window.onscroll = function() {
-                       publiiLoadDisqus();
-                   };
-               </script>
-               <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-            </div>
-         </div>
 
          <div class="banner banner--after-post">
             <div class="wrapper">
