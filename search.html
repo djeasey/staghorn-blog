@@ -28,4 +28,48 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             });
          }
       }
-      lazyFeaturedImage();</script><center><p>CORRECTIONS ARE NOT JUST WELCOMED BUT INVITED: <a href="mailto:staghornblog@gmail.com">CONTACT</a></p></center><br><center><a href="#INTERNAL_LINK#/post/28">COPYRIGHT INFO </a>: TEXT = <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0">, INFOGRAPHICS = <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a></a></center><br><center><div class="fb-like" data-href="https://www.facebook.com/staghornblog/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div><br></center></body></html>
+      lazyFeaturedImage();</script><script>var token = '24157949619.1677ed0.145d51e6aaba4649842a5c477b77ecce',
+                limit = 6,
+                container = document.getElementById('js-instafeed'),
+                scrElement = document.createElement('script');
+                scrElement.setAttribute('id', 'ig-result-callback');
+
+            window.igResultCallback = function(data) {
+                for (x in data.data) {
+
+                    if (data.data[x].caption != null) {
+                        if (data.data[x].caption.text != null) {
+                            caption = data.data[x].caption.text;
+                        }
+                    } else {
+                        caption = "";
+                    }
+
+                    container.innerHTML += ' <li><a href="' + data.data[x].link + '" target="_blank" rel="noreferrer"><img src="' + data.data[x].images.standard_resolution.url + '" alt="' + caption + '" height="' + data.data[x].images.standard_resolution.height + '" width="' + data.data[x].images.standard_resolution.width + '"></a><div class="instagram__meta"><span class="instagram__likes">' + data.data[x].likes.count + '</span> <span class="instagram__comments">' + data.data[x].comments.count + '</span></div></li>';
+                }
+            };
+
+            scrElement.setAttribute('src', 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + token + '&count=' + limit + '&callback=igResultCallback');
+
+            if (!('IntersectionObserver' in window)) {
+                document.body.appendChild(scrElement);
+            } else {
+                function onIntersection(entries) {
+                    entries.forEach(entry => {
+                        if (entry.intersectionRatio > 0) {
+                            observer.unobserve(entry.target);
+
+                            if (!document.getElementById('ig-result-callback')) {
+                                document.body.appendChild(scrElement);
+                            }
+                        }
+                    });
+                }
+
+                var observer = new IntersectionObserver(onIntersection, {
+                    rootMargin: '320px 0px',
+                    threshold: 0.01
+                });
+
+                observer.observe(container);
+            }</script><center><p>CORRECTIONS ARE NOT JUST WELCOMED BUT INVITED: <a href="mailto:staghornblog@gmail.com">CONTACT</a></p></center><br><center><a href="#INTERNAL_LINK#/post/28">COPYRIGHT INFO </a>: TEXT = <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0">, INFOGRAPHICS = <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a></a></center><br><center><div class="fb-like" data-href="https://www.facebook.com/staghornblog/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div><br></center></body></html>
