@@ -86,9 +86,13 @@
 </url>
 <url>
 <loc>https://staghornblog.github.io/staghorn-blog/architectural-design-of-the-classical-column/</loc>
-<lastmod>2019-11-26T17:57:29+11:00</lastmod>
+<lastmod>2019-11-26T20:22:07+11:00</lastmod>
 <image:image>
 <image:loc>https://staghornblog.github.io/staghorn-blog/media/posts/32/Thebes-text.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://staghornblog.github.io/staghorn-blog/media/posts/32/columns2.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
@@ -5310,7 +5314,7 @@
 </url>
 <url>
 <loc>https://staghornblog.github.io/staghorn-blog/infographics/</loc>
-<lastmod>2019-11-15T00:56:29+11:00</lastmod>
+<lastmod>2019-11-26T20:22:47+11:00</lastmod>
 <image:image>
 <image:loc>https://staghornblog.github.io/staghorn-blog/media/posts/7/facebook-cover.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -5333,6 +5337,10 @@
 </image:image>
 <image:image>
 <image:loc>https://staghornblog.github.io/staghorn-blog/media/posts/7/gallery/aegean-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://staghornblog.github.io/staghorn-blog/media/posts/7/gallery/columns2-thumbnail.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
