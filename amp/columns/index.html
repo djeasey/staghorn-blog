@@ -1,0 +1,590 @@
+<!doctype html><html amp lang="en"><head><meta charset="utf-8"><title>Architectural Design of the Classical Column - Staghorn</title><meta name="description" content="BUMPER"><link rel="canonical" href="https://staghornblog.github.io/staghorn-blog/columns/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://staghornblog.github.io/staghorn-blog/amp/columns/"},"headline":"Architectural Design of the Classical Column","datePublished":"2019-11-14T15:12","dateModified":"2019-11-26T20:38","image":{"@type":"ImageObject","url":"https://staghornblog.github.io/staghorn-blog/media/posts/32/Thebes-text.png","height":2204,"width":3920},"description":"<h2 id=\"mcetoc_1dphlqu9ba\"><strong>BUMPER</strong></h2>\n","author":{"@type":"Person","name":"Alexander Nathan"},"publisher":{"@type":"Organization","name":"Alexander Nathan","logo":{"@type":"ImageObject","url":"https://staghornblog.github.io/staghorn-blog/media/website/logosqr.jpg","height":537,"width":536}}}</script><style amp-custom>article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+amp-img {
+  max-width: 100%; }
+
+button,
+input,
+select,
+textarea {
+  font: inherit; }
+
+html {
+  font-size: 1rem; }
+
+body {
+  background: #f1f1f1;
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.6; }
+
+a {
+  color:  #444444;
+  text-decoration: none;
+  -webkit-transition: all 0.12s linear 0s;
+  -o-transition: all 0.12s linear 0s;
+  transition: all 0.12s linear 0s; }
+
+a:hover {
+  color: #262626;
+  text-decoration: underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink; }
+
+a:active {
+  color: #262626; }
+
+a:focus {
+  outline: 2px dotted #444444; }
+
+figure,
+blockquote,
+p,
+ul,
+ol,
+dl,
+table,
+hr,
+fieldset {
+  margin-top: 1.6rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 2.13333rem; }
+
+h1 {
+  font-size: 1.67583rem;
+  font-weight: normal; }
+
+h2 {
+  font-size: 1.4729rem; }
+
+h3 {
+  font-size: 1.29454rem; }
+
+h4 {
+  font-size: 1.13778rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h6 {
+  font-size: 0.87891rem; }
+
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0.8rem; }
+
+b,
+strong {
+  font-weight: 600; }
+
+blockquote {
+  color: #6c7175;
+  font-family: "Droid Serif", "Times", "Source Serif Pro", serif;
+  font-style: italic;
+  padding: 1.33333rem 0.53333rem 1.33333rem 3.2rem;
+  position: relative; }
+  blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 4.41226rem;
+    position: absolute;
+    left: 0;
+    top: -12px;
+    color: rgba(108, 113, 117, 0.5); }
+  blockquote > :nth-child(1) {
+    margin-top: 0; }
+
+ul,
+ol {
+  margin-left: 2rem; }
+  ul > li,
+  ol > li {
+    list-style: inherit;
+    padding: 0 0 0.26667rem 0.26667rem; }
+
+dl dt {
+  color: #262626;
+  font-weight: 600; }
+
+code,
+pre {
+  background-color: #f1f1f1;
+  font-family: monospace; }
+
+pre {
+  margin: 1.6rem 0 0;
+  padding: 1.6rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto; }
+  pre > code {
+    color: #262626;
+    padding: 0; }
+
+code {
+  border-radius: 3px;
+  color: #262626;
+  padding: 0.26667rem 0.53333rem; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  overflow-x: auto;
+  vertical-align: top;
+  text-align: left;
+  white-space: nowrap; }
+  table th {
+    font-weight: 500;
+    padding: 0.53333rem 1.06667rem; }
+  table tr {
+    border-bottom: 1px solid #d4d4d4; }
+    table tr:nth-child(2n) {
+      background: #f1f1f1; }
+  table td {
+    padding: 0.53333rem 1.06667rem; }
+
+figcaption {
+  clear: both;
+  color: rgba(108, 113, 117, 0.6);
+  font-size: 0.82397rem;
+  margin: 0.8rem 0 0;
+  text-align: center; }
+
+sub,
+sup {
+  font-size: 65%; }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.btn, [type=button],
+[type=submit],
+button {
+  background: #444444;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.87891rem;
+  font-weight: 500;
+  line-height: 1.9;
+  padding: 0.53333rem 1.33333rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  transition: all .15s ease;
+  width: auto; }
+  .btn:hover, [type=button]:hover,
+  [type=submit]:hover,
+  button:hover {
+    background: #262626;
+    color: #ffffff; }
+  .btn:focus, [type=button]:focus,
+  [type=submit]:focus,
+  button:focus {
+    outline: none; }
+  .btn-outline {
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 3px;
+    color: #262626; }
+
+[type=button],
+[type=submit],
+button {
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+.navbar {
+  background: #444444;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  line-height: 3;
+  max-height: 4rem; }
+  .navbar > div {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto; }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none; }
+  .navbar-sidebar-toggle {
+    left: 0;
+    position: relative;
+    text-indent: -99999rem; }
+    .navbar-sidebar-toggle:before {
+      content: "";
+      display: block;
+      border-top: 0.375rem double #ffffff;
+      border-bottom: 0.125rem solid #ffffff;
+      height: 0.125rem;
+      position: absolute;
+      text-indent: 0;
+      top: 50%;
+      width: 1.3rem;
+      -webkit-transform: translate(0px, -50%);
+      -ms-transform: translate(0px, -50%);
+      transform: translate(0px, -50%); }
+
+
+.logo {
+                    background-image: url('https://staghornblog.github.io/staghorn-blog/media/website/logosqr.jpg');
+                    background-size: auto 2rem;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+            display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+            margin: 0 auto;
+            height: 2rem;
+            text-indent: -9999px;
+            width: 240px;vertical-align: middle;
+        }
+        .logo.logo-text {
+            line-height: 2;
+            text-align: center;
+            text-indent: 0;
+        }
+
+amp-sidebar {
+  background: #ffffff;
+  width: 240px; }
+  amp-sidebar > ul {
+    margin: 0.8rem 0 0;
+    padding: 0; }
+    amp-sidebar > ul ul {
+      border-left: 1px solid #d4d4d4;
+      margin: 0.53333rem 0 0; }
+    amp-sidebar > ul li {
+      color: #262626;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      list-style: none;
+      line-height: 1.4;
+      padding: 0.42667rem 1.06667rem; }
+      amp-sidebar > ul li li {
+        font-weight: normal;
+        padding: 0.26667rem 0 0.26667rem 1.06667rem; }
+    amp-sidebar > ul a,
+    amp-sidebar > ul a:visited {
+      color: #262626; }
+
+.bg-white {
+  background: #ffffff; }
+
+.wrap-page {
+  max-width: 700px;
+  margin: 0 auto; }
+
+@media all and (max-width: 43.6875em) {
+  .wrap-inner {
+    padding: 0 6%; } }
+
+.page-title {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  margin-bottom: 0.8rem;
+  padding: 1.6rem 6%; }
+  .page-title > h1 {
+    margin: 0;
+    font-size: 1.29454rem; }
+  .page-title > p {
+    font-size: 0.87891rem;
+    color: #6c7175;
+    line-height: 1.3;
+    margin: 0.26667rem 0 0; }
+  .page-title-author {
+    border-radius: 50%;
+    float: left;
+    height: 2.5rem;
+    width: 2.5rem; }
+    .page-title-author + h1 {
+      margin-left: 3.5rem; }
+      .page-title-author + h1 + p {
+        margin-left: 3.5rem; }
+
+.card {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  margin-bottom: 0.8rem;
+  padding-bottom: 1.06667rem; }
+
+  .card-meta {
+    border-top: 1px solid #d4d4d4;
+    color: rgba(108, 113, 117, 0.6);
+    font-size: 0.7242rem;
+    font-weight: 500;
+    margin-top: 1.06667rem;
+    padding-top: 1.06667rem;
+    text-transform: uppercase; }
+    .card-meta a + time:before {
+      content: "";
+      background: #d4d4d4;
+      display: inline-block;
+      height: 3px;
+      margin: 0 8px;
+      width: 3px;
+      vertical-align: middle;
+      border-radius: 50%; }
+  .card-text {
+    font-size: 0.9375rem;
+    overflow: hidden;
+    padding: 0 6%; }
+    .card-text h2 {
+      font-size: 1.13778rem; }
+
+.post {
+  margin-bottom: 2.13333rem; }
+  .post-featured-image {
+    margin-top: 0;
+    position: relative; }
+    .post-featured-image > figcaption {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 3px;
+      color: #ffffff;
+      position: absolute;
+      bottom: 0.8rem;
+      padding: 0 0.26667rem;
+      right: 6%; }
+  .post-header {
+    margin-bottom: 2.13333rem; }
+  .post-meta {
+    border-bottom: 1px solid #d4d4d4;
+    color: rgba(108, 113, 117, 0.6);
+    font-size: 0.7242rem;
+    font-weight: 500;
+    margin-top: 1.06667rem;
+    padding-bottom: 1.06667rem;
+    text-transform: uppercase; }
+    .post-meta a + time:before {
+      content: "";
+      background: #d4d4d4;
+      display: inline-block;
+      height: 3px;
+      margin: 0 8px;
+      width: 3px;
+      vertical-align: middle;
+      border-radius: 50%; }
+  .post-tag {
+    margin: 0; }
+    .post-tag > li {
+      display: inline-block;
+      padding: 0; }
+      .post-tag > li a {
+        background: #f1f1f1;
+        border-radius: 2px;
+        color: #6c7175;
+        font-size: 0.77248rem;
+        display: inline-block;
+        margin: 0 0.26667rem 0.26667rem 0;
+        padding: 0.26667rem 0.53333rem; }
+        .post-tag > li a:hover {
+          background: #444444;
+          color: #ffffff;
+          text-decoration: none; }
+  .post-share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    width: 100%; }
+    .post-share amp-social-share {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+      background-size: 24px; }
+  .post-scroll {
+    color: #ffffff;
+    background: #444444;
+    bottom: 10px;
+    border-radius: 50%;
+    border: none;
+    -webkit-box-shadow: 0 1px 1.5px 0 rgba(38, 38, 38, 0.12), 0 1px 1px 0 rgba(38, 38, 38, 0.24);
+    box-shadow: 0 1px 1.5px 0 rgba(38, 38, 38, 0.12), 0 1px 1px 0 rgba(38, 38, 38, 0.24);
+    font-size: 1.13778rem;
+    height: 46px;
+    opacity: 0;
+    outline: none;
+    position: fixed;
+    padding: 0;
+    right: 4%;
+    visibility: hidden;
+    width: 46px;
+    z-index: 9999; }
+    .post-scroll-marker {
+      height: 0px;
+      position: absolute;
+      top: 100px;
+      width: 0px; }
+        .post-pagination {
+    background: #f1f1f1;
+    -webkit-box-shadow: inset 0 2px 3px rgba(38, 38, 38, 0.1);
+    box-shadow: inset 0 2px 3px rgba(38, 38, 38, 0.1);
+    border-top: 1px solid #d4d4d4;
+    padding: 1.06667rem 0; }
+    .post-pagination > div {
+      line-height: 1.2;
+      padding: 0.53333rem 1.06667rem;
+      text-align: center; }
+      .post-pagination > div span {
+        display: block;
+        color: #6c7175;
+        font-size: 0.7242rem;
+        font-weight: 500;
+        margin-bottom: 0.26667rem;
+        text-transform: uppercase; }
+    .post-pagination-prev a:before {
+      content: "\2190";
+      margin-right: 0.26667rem; }
+    .post-pagination-next a:after {
+      content: "\2192";
+      margin-left: 0.26667rem; }
+
+aside {
+  margin: 1.6rem 0 0; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.align-justify {
+  text-align: justify; }
+
+.msg {
+  border-left: 2px solid transparent;
+  padding: 1.06667rem 1.06667rem; }
+  .msg--highlight {
+    background-color: #fff8e6;
+    border-color: #e2ac4f; }
+  .msg--info {
+    background: rgba(45, 97, 201, 0.03);
+    border-color: #444444; }
+  .msg--success {
+    background: #f7fbf6;
+    border-color: #5ab44b; }
+  .msg--warning {
+    background: #fff3f3;
+    border-color: #c06367;
+    color: #a94442; }
+
+.dropcap:first-letter {
+  float: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 2.16943rem;
+  line-height: 0.7;
+  margin-right: 0.53333rem;
+  padding: 0.53333rem 0.53333rem 0.53333rem 0; }
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.8rem 0; }
+  .pagination > a {
+    padding-left: 0;
+    padding-right: 0;
+    width: 49%; }
+  .pagination-right {
+    margin-left: auto; }
+
+.bottom {
+  background: #444444;
+  color: #ffffff;
+  padding: 1.06667rem 4%;
+  text-align: center; }
+
+    /*
+ * Put your custom CSS code here (it will be used only in the AMP mode)
+ */</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo" href="https://staghornblog.github.io/staghorn-blog/amp/">Staghorn</a></div></nav><main class="wrap-page"><article class="post"><figure class="post-featured-image"><amp-img src="https://staghornblog.github.io/staghorn-blog/media/posts/32/Thebes-text.png" alt="" srcset="https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/Thebes-text-xs.png 300w ,https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/Thebes-text-sm.png 480w ,https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/Thebes-text-md.png 768w" sizes="(max-width: 768px) 100vw, 768px" height="2204" layout="responsive" width="3920"></amp-img></figure><div class="wrap-inner"><header class="post-header"><h1>Architectural Design of the Classical Column</h1><p class="post-meta"><time datetime="2019-11-14T15:12">14 Nov 2019</time></p></header><h2 id="mcetoc_1dphlqu9ba"><strong>BUMPER</strong></h2><div class="post__toc"><h3>Table of Contents</h3><ul><li><a href="#mcetoc_1dphlqu9ba">BUMPER</a><ul><li><a href="#mcetoc_1dphlstjfb">Column Anatomy</a></li><li><a href="#mcetoc_1dphm2qnec">Shaft Adornment</a></li><li><a href="#mcetoc_1dphm39n3d">Architectural Order</a></li><li><a href="#mcetoc_1dphm59huf">Summary</a></li></ul></li></ul></div><p> </p><p class="msg msg--success">Click Here for the Related IntroNotes Article: <a href="https://staghornblog.github.io/staghorn-blog/amp/the-sacred-band-of-thebes/">The Sacred Band of Thebes: Greek Gays with Knives</a></p><figure class="post__image post__image--center"><amp-img src="https://staghornblog.github.io/staghorn-blog/media/posts/32/columns3.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/columns3-xs.png 300w ,https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/columns3-sm.png 480w ,https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/columns3-md.png 768w ,https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/columns3-xl.png 1200w ,https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/columns3-xxl.png 1600w ,https://staghornblog.github.io/staghorn-blog/media/posts/32/responsive/columns3-xxxl.png 2560w" width="3829" height="3830" layout="responsive"></amp-img><figcaption>Summary of the five main orders of classical column design, displaying simplified stylistic elements and general column structure.</figcaption></figure><p> </p><p>So normally I try to link GeekNotes to the main article. But I didn't want to do that today. I wanted to talk about classical architecture. Specifically columns. There will inevitably come a day when I wanna look into arches and domes, because they're great and all, but... columns. Magnifique. <em>*chef finger kiss*</em></p><p>Columns once existed as purely functional shafts of weight support. Then one day, an architect or builder realised, things can be structural AND aesthetically pleasing. To them, I am eternally grateful.</p><p>So today when we talk about classical column design we're going to talk about:</p><ul><li>Column Anatomy</li><li>Shaft Adornment</li><li>Architectural Order</li><li>and Engagement</li></ul><p>Furthermore, discussion will focus on Greek and Roman columns. Whilst the Persian and pre-Ptolemaic Egypt world had fascinating column-design journeys, I'm here to talk about the Graeco-Roman story today. Note that these three worlds of column-design and architecture did also share ideas and influence each other (briefly mentioned below).</p><h3 id="mcetoc_1dphlstjfb"><strong>Column Anatomy</strong></h3><p>Don't worry dear arithmophobes, minimal math-talk. As much as the engineering/physics of columns is fascinating, we're just talking about design today. From the ground up:</p><ul><li>Base<ul><li>this often consisted of (ground-up):<ul><li>Pedestal</li><li>Dado</li><li>Cornice/Cap</li></ul></li></ul></li></ul><ul><li>Shaft<ul><li>this was made either from one long, or many sections of stone.</li><li>Entasis**: is the interesting principle of building a non-straight, slightly convex shaft. This was done to counter-balance the optical illusion of concavity seen in straight shafts.</li></ul></li><li>Capital<ul><li>This is the business end of the column and where the Greco-Roman world placed design-emphasis. (See Architectural Order below)</li></ul></li></ul><p class="msg msg--info align-left"><strong>ENTASIS**: </strong>We see here, the classical search for visual perfection cared more about <em>perceived</em> balance (/perceived-straightness) more than objective <em>physical</em> balance. One could argue this aligning well with the past cultural views of harmony, balance, and platonic realism.</p><div class="gallery" data-is-empty="false" data-columns="3"><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/column-anatomy.png" data-size="300x600"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/column-anatomy-thumbnail.png" alt="" width="300" height="600" layout="responsive"></amp-img></a><figcaption class="gallery-description">Anatomy of an Ionic Column (1 = entrablature, 2 = column, 3 = cornice, 4 = frieze, 5 = architrave or epistyle, 6 = capital, 7 = shaft, 8 = base, 9 = stylobate, 10 = stereobate) by "F l a n k e r" (PD)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/entasis.png" data-size="300x800"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/entasis-thumbnail.png" alt="" width="300" height="800" layout="responsive"></amp-img></a><figcaption class="gallery-description">Schematic displaying entasis of a corinthian column, showing maximal convexity at point "D", by Roland Bergmann (CC BY-SA 3.0)</figcaption></figure></div><h3 id="mcetoc_1dphm2qnec"><strong>Shaft Adornment</strong></h3><p>Whilst the capital of the column was its mitochondria (powerhouse of the column, if you will), that didn't mean an architect couldn't spice up the column shaft with:</p><ul><li>Fluting</li><li>Solomonic Helices</li><li>Caryatides</li></ul><p><strong>Column Fluting</strong></p><p>This is the series of shallow vertical grooves carved along the shaft. This imparted a sense of linear regularity, masked horizontal stone joints, and highlighted the visual round-ness of the column (as opposed to the illusion of flat-ness seen in the absence of fluting).</p><p><strong>Solomonic Columns</strong></p><p>Strongly influenced by eastern design, one Greek architect asked themself "<em>why not have a helix twisting around the shaft... because... twisty</em>".</p><p><strong>Caryatides</strong></p><p>This is the architectural practice of looking at a column shaft and saying "<em>wouldn't it be great if this wasn't a shaft and instead was a stone lady</em>". The name Caryatides is from the Greek <em>karyatides ("</em>maidens of the town of Karyai"<em>). </em>This name referenced the Peloponnese town of Karyai which had a Temple of Artemis with Caryatid columns.</p><p>This idea of the sculptural column shaft, carved to look like a woman, has since spread through Western architecture. I only mention this because in the suburb I live in, these Caryatides are everywhere. (Note that Melbourne is the city with the largest Greek-speaking population outside of Greece). Around here we see the architectural legacy of the classical Caryatid manifest as Caryatid balusters. Balusters are the poles which together form a balustrade, the fencing/poles of a balcony/fence railing.</p><div class="gallery" data-is-empty="false" data-columns="3"><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/fluting.png" data-size="553x599"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/fluting-thumbnail.png" alt="" width="553" height="599" layout="responsive"></amp-img></a><figcaption class="gallery-description">Schematic displaying shaft fluting by Pearson Scott Foresman (PD)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/solmonic.jpg" data-size="1440x1642"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/solmonic-thumbnail.jpg" alt="" width="768" height="876" layout="responsive"></amp-img></a><figcaption class="gallery-description">Photograph displaying Solomonic Columns at a Law School, Granada, Andalucia. Taken by Juandev (CC BY-SA 3.0)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/Caryatides.jpg" data-size="800x533"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/Caryatides-thumbnail.jpg" alt="" width="768" height="512" layout="responsive"></amp-img></a><figcaption class="gallery-description">Photograph displaing Caryatid Columns of the Erechtheion, Athens. Taken by Thermos (CC BY-SA 2.5)</figcaption></figure></div><figure class="post__image post__image--right"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/orders.jpg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/responsive/orders-xs.jpg 300w ,file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/responsive/orders-sm.jpg 480w ,file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/responsive/orders-md.jpg 768w ,file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/responsive/orders-xl.jpg 1200w ,file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/responsive/orders-xxl.jpg 1600w ,file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/responsive/orders-xxxl.jpg 2560w" alt="" width="2529" height="2708" layout="responsive"></amp-img><figcaption>"Table of Architecture" (1728), summarising architectural orders by <a rel="nofollow" class="external text" href="http://digicoll.library.wisc.edu/cgi-bin/HistSciTech/HistSciTech-idx?type=turn&amp;entity=HistSciTech000900240169&amp;isize=XL">James and John Knapton</a> (PD)</figcaption></figure><h3 id="mcetoc_1dphm39n3d"><strong>Architectural Order</strong></h3><p>Classical archictectural orders can be considered sets of recognisable design themes. When designing a building an architect would decide an order to work in, must as a composer would pick a key, or an author would pick a genre.</p><p>The Roman's would also operate in a system called the <em>Superimposed Order</em>. This is the alternation of architectural orders between storeys of a building. (e.g. the Colosseum)</p><p><strong>Greek Orders</strong></p><ul><li>Doric (e.g. the Parthenon, Athens)</li><li>Ionic (e.g. the Temple of Athena, Athens)</li><li>Corinthian (e.g. the Monument of Lysicrates, Athens)</li></ul><p>(Note how many different orders would co-exist in a city)</p><p>The <strong>Doric</strong> order is the simplest Greek order. It is categorised by short, thick columns, with no base, the bottom of a column directly touching the floor. The column was shafted with 16 flutes. The capital was a convex, round stone.</p><p>The <strong>Ionic</strong> order is, in my opinion, the most archetypically <em>Greek</em> looking order. It involves large column bases, slender shafts with 24 flutes and distinct entasis, and elegant scroll/volute capitals.</p><p>The <strong>Corinthian</strong> order is the most ornate and delicate Greek order, which deeply influenced much later (renaissance) stylings. Bases. Longer shafts with 24 flutes, and distinct capitals. The Corinthian capital features two rows of acanthus leaves and four angled scrolls.</p><div class="gallery" data-is-empty="false" data-columns="3"><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/doric.jpg" data-size="279x468"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/doric-thumbnail.jpg" alt="" width="279" height="468" layout="responsive"></amp-img></a><figcaption class="gallery-description">Print displaying doric column of the Parthenon (1898) sources from A Handbook of Architectural Styles (artist unknown) (PD)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/ionic.jpg" data-size="693x1047"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/ionic-thumbnail.jpg" alt="" width="693" height="1047" layout="responsive"></amp-img></a><figcaption class="gallery-description">Schematic of Ionic Order (1770), Julien David Le Roy (PD)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/corinthian.jpg" data-size="273x457"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/corinthian-thumbnail.jpg" alt="" width="273" height="457" layout="responsive"></amp-img></a><figcaption class="gallery-description">Print displaying corinthian column of the Parthenon (1898) sources from A Handbook of Architectural Styles (artist unknown) (PD)</figcaption></figure></div><p>Two discussion points of note:</p><p class="msg msg--highlight msg--info"><strong>Doric vs Ionic</strong>: The Dan Brown novel <em>Angels &amp; Demons</em>, features a joke I think about frequently. Art history/classics buff Robert Langdon sees a column in a physics department building. The column (build in the <em>Doric</em> order) that has been graffitied to say "<em>this column is ionic</em>". Being the self-satisfied, art-snob Langdon is, he begins to geek-splain the error to someone, having completely missed the joke (<em>ionic</em> as in pertaining to the <em>ions</em> (e.g. calcium carbonate) in marble). 10/10 joke.</p><p class="msg msg--highlight msg--info"><strong>Corinthian:</strong> The disputed origin and evolution of the Corinthian capital suggests the inter-cultural dialogue of the classical world. The Egyptian Papyriform/Bell and Greek Corinthian stylings share distinct similarities and motifs. It seems the organic and elegant curves of plant-life complimenting the firm linearity of the column is a strong classical-world theme.</p><p><strong>Roman Orders</strong></p><ul><li>Tuscan (e.g. the Palazzo Massimo alle Colonne, Rome)</li><li>Composite (e.g. the Arch of Titus, Rome)</li></ul><p>Whilst the Romans frequently employed Greek orders, the also developed two of their own.</p><p>The <strong>Tuscan</strong> order may be considered a simplified Doric styling. Though some of the ratios and measures varied, the main salient difference was the Tuscan's lack of shaft fluting.</p><p>The <strong>Composite</strong> order arose from a mixing of Greek Corinthian and Ionic orders, increasing the Corinthian's emphases on volutes.</p><p>Additional order styles include: the aforementioned Roman <strong>Superimposed</strong> order, and Renaissance <strong>Colossal</strong> order (which could span multiple floors) </p><div class="gallery" data-is-empty="false" data-columns="3"><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/tuscan.jpg" data-size="451x504"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/tuscan-thumbnail.jpg" alt="" width="451" height="504" layout="responsive"></amp-img></a><figcaption class="gallery-description">16th Century schematic of the tuscan order by Andrea Palladio (PD)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/Composite.png" data-size="344x324"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/Composite-thumbnail.png" alt="" width="344" height="324" layout="responsive"></amp-img></a><figcaption class="gallery-description">Simplified schematic of composite order capital, Nordisk Familjebok (1910) (PD)</figcaption></figure></div><p class="msg msg--highlight">Want to know about the types of columns that came later? Here's an article about <a href="#INTERNAL_LINK#/post/null">post-classical european architectural sensibilities</a> </p><p><strong>Engagement</strong></p><p>The last concept to discuss, engagement.</p><p>Engagement is quality of a column not being free-standing, but rather being partly-embedded in a wall. These are far less common in classical Greek architecture but were abundant in Rome.</p><p><strong>Engaged columns</strong> may be compared to <strong>pilasters</strong>. These may be described as square (rather than round), engaged columns. They have similar anatomies to a column (plinth, shaft, capital) but are typically decorative and NOT load bearing. This is to say they provide negligible structural support to the wall or roof.</p><p>We may also compare these to <strong>buttresses</strong>. These are structures which serve to support a wall, important in large historical architecture. A buttress (see also <em>counterfort</em>, a buttress for dam or retaining wall) is typically a squared structure abutting a wall or wall-corner. Buttresses may also be wedged in appearance, tapering up form a thick base.</p><p class="msg msg--highlight">And for those wondering, yes. Yes I did mention buttresses so that I had an opportunity to discuss my favourite architectural term in existence: <em>flying buttress</em>.</p><p>If a buttress is analogous to an engaged column, then we might compare a flying buttress to a free-standing/unengaged column. This is to say that it does not stand adjacent to the wall. Instead, a flying buttress stands as an independent <em>pier</em> (a column-ish structure separate from the wall), connected via a flyer (typically an arch).</p><div class="gallery" data-is-empty="false" data-columns="3"><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/la-Maison-Carree.jpeg" data-size="749x599"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/la-Maison-Carree-thumbnail.jpeg" alt="" width="749" height="599" layout="responsive"></amp-img></a><figcaption class="gallery-description">Photograph of the Roman Temple "la Maison Carrée" (2 AD) in Nîmes, France. Taken by Aoudot25. Note free-standing columns to right being continued to the left as engaged columns. (CC BY-AS 3.0)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/pilaster.jpg" data-size="800x1212"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/pilaster-thumbnail.jpg" alt="" width="768" height="1164" layout="responsive"></amp-img></a><figcaption class="gallery-description">Photograph displaying pilasters of the collosal and corinthian orders at 8 avenue de l'Opéra, Paris. Taken by Jastrow (CC BY 3.0)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/buttress.jpg" data-size="276x599"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/buttress-thumbnail.jpg" alt="" width="276" height="599" layout="responsive"></amp-img></a><figcaption class="gallery-description">Photograph displaying buttresses at Westminster. Taken by Tagishsimon (CC BY-SA 3.0)</figcaption></figure><figure class="gallery__item"><a href="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/flying-buttress.jpg" data-size="765x1024"><amp-img src="file:///Users/alexandernathan/Documents/Publii/sites/staghorn/input/media/posts/26/gallery/flying-buttress-thumbnail.jpg" alt="" width="765" height="1024" layout="responsive"></amp-img></a><figcaption class="gallery-description">Photograph showing fliers of flying buttresses of the Notre Dame, Paris (yikes RIP). Taken by Jean Lemoine (CC BY-SA 2.0)</figcaption></figure></div><h3 id="mcetoc_1dphm59huf"><strong>Summary</strong></h3><p>Whilst the contemporary and modern periods are defined by a presence of <em>nonce-</em>architecture (individual once-off appearance traits and design elements), the classical world had a strong sense of theme. This 'correct way to do things' idea was core to the classical world. Whilst it reduced stylistic diversity, it has resulted in a rich history of theme, style, and order development. So, next time you see a fancy building with a classical-inspired column, you can look at it and say: "that looks old-timey for a reason, and that reason is classical order".</p><hr><p>Banner image edited from photograph of Doric columns. Taken by <a href="https://commons.wikimedia.org/wiki/User:Tomascastelazo" title="User:Tomascastelazo">Tomascastelazo</a> at the Teatro Juarez in Guanajuato, Mexico</p><pre>In order to comply with the use and licensing terms of this image, the following text must must be included with the image when published in any medium, failure to do so constitutes a violation of the licensing terms and copyright infringement: © Tomas Castelazo, <a rel="nofollow" class="external text" href="http://www.tomascastelazo.com/">www.tomascastelazo.com</a> / <a href="https://commons.wikimedia.org/wiki/Main_Page" title="Main Page">Wikimedia Commons</a> / <span class="plainlinks noprint"><a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span></pre><aside><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="Architectural Design of the Classical Column"></amp-social-share><amp-social-share type="facebook" width="40" height="40" data-param-app_id="" data-param-text="Architectural Design of the Classical Column" data-param-href="https://staghornblog.github.io/staghorn-blog/amp/columns/"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="Architectural Design of the Classical Column" data-param-url="https://staghornblog.github.io/staghorn-blog/amp/columns/"></amp-social-share><amp-social-share type="pinterest" width="40" height="40" data-param-url="https://staghornblog.github.io/staghorn-blog/amp/columns/"></amp-social-share><amp-social-share type="tumblr" width="40" height="40" data-param-text="Architectural Design of the Classical Column" data-param-url="https://staghornblog.github.io/staghorn-blog/amp/columns/"></amp-social-share><amp-social-share type="whatsapp" width="40" height="40" data-param-text="Architectural Design of the Classical Column"></amp-social-share></div></aside></div></article><nav class="post-pagination wrap-inner"><div class="post-pagination-prev"><span>Previous</span> <a href="https://staghornblog.github.io/staghorn-blog/amp/what-is-time/">What Is Time? A Linguistic, Physical, and Psychological Discussion</a></div></nav></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{
+                    "duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{
+                        "selector": ".post-scroll",
+                        "keyframes": [{
+                            "opacity": "1",
+                            "visibility": "visible",
+                            "transform": "scale(1)"
+                        }]
+                    }]
+                }</script></amp-animation><amp-animation id="hideAnim" layout="nodisplay"><script type="application/json">{
+                    "duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{
+                        "selector": ".post-scroll",
+                        "keyframes": [{
+                            "opacity": "0",
+                            "visibility": "hidden",
+                            "transform": "scale(0.1)"
+                        }]
+                    }]
+                }</script></amp-animation><div class="post-scroll-marker"><amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay"></amp-position-observer></div><button class="post-scroll" on="tap:top.scrollTo(duration=200)">&#8593;</button><footer class="bottom">Powered by Publii</footer><amp-sidebar id="navbar-sidebar" layout="nodisplay"><ul><li><a href="https://staghornblog.github.io/staghorn-blog/amp/tag/medicine/">Medicine</a></li><li><a href="https://staghornblog.github.io/staghorn-blog/amp/tag/botany/">Botany</a></li><li><a href="https://staghornblog.github.io/staghorn-blog/amp/tag/classics/">Classics</a></li><li><a href="https://staghornblog.github.io/staghorn-blog/amp/tag/linguistics/">Linguistics</a></li><li><a href="https://staghornblog.github.io/staghorn-blog/amp/tag/misc/">Misc</a></li><li><a href="https://staghornblog.github.io/staghorn-blog/amp/infographics/">Infographics</a></li><li><a href="https://staghornblog.github.io/staghorn-blog/amp/geeknotes-gallery/">GeekNotes</a></li></ul></amp-sidebar></body></html>
